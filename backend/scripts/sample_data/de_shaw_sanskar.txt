@@ -1,0 +1,35 @@
+D. E. Shaw Placement Experience –
+Sanskar Pandey (IT)
+
+1. Eligibility
+● CPI Criteria:
+○ 7.0+ for Tech Branches
+○ 8.0+ for Non-Tech Branches
+
+2. Online Assessment (OA)
+The OA consisted of two DSA coding questions of medium and hard difficulty. The questions required efficient solutions and a good understanding of data structures and algorithms, I don’t exactly remember the problem’s.
+
+Preparation Tips:
+● Practice medium-level DSA problems consistently.
+● Focus on writing optimized solutions for medium one and for hard ones some-time even Brute works.
+
+3. Technical Interview
+The interview primarily focused on:
+● DSA medium.
+● An in-depth discussion of my projects.
+● The tech stack I had used, why I chose those technologies, and where they are used in real-world applications.
+● Design decisions, implementation details, and challenges faced during development.
+
+My advice is to know every project on your resume thoroughly, including the architecture, tech stack, challenges faced, and possible improvements, along with cases in which my project will fail.
+
+4. Preparation Tips
+● Prioritize building strong DSA and problem-solving skills.
+● Revise CS fundamentals (OOP, DBMS, OS, CN) based on the company you're applying to.
+● Understand every detail of your projects instead of just building them.
+● Since the role is testing-centric, it is beneficial to learn automation testing concepts and tools such as Selenium, Playwright, JUnit/TestNG, or similar testing frameworks.
+● Work on your communication skills. Being able to explain your thought process, justify your decisions, and communicate confidently during interviews is just as important as solving the problem itself.
+
+5. Final Advice
+Strong problem-solving skills, a solid understanding of your projects, and good communication are the three things that help’s most during the process. For testing-oriented roles, having some exposure to automation testing tools and frameworks can also give you an edge.
+
+Best of luck with your placements!

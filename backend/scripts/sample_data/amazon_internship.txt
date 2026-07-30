@@ -1,0 +1,81 @@
+Amazon Internship Interview Experience
+
+I recently went through the internship selection process at Amazon.
+The process consisted of two stages:
+1. Online Assessment (Coding + Workstyle Assessment)
+2. Interview
+
+Online Assessment
+The coding assessment was conducted on HackerRank and consisted of two easy-to-medium questions with a total duration of 60 minutes.
+• The first question was based on trees and was relatively straightforward.
+• The second question involved concepts related to heaps.
+
+After the coding round, there was a Workstyle Assessment. It was similar to a behavioral assessment and also evaluated communication skills. There was no time limit for this section, and I spent around 20 minutes completing it.
+Both assessments had to be completed in a single sitting.
+
+Interview
+Around two weeks after the online assessment, I received an email containing the interview details.
+When I joined the meeting using the provided link, the interviewer was unable to join. Shortly afterward, an HR representative informed me that due to scheduling constraints, the interview would have to be rescheduled.
+Later that day, I received another email with revised details. The interview was rescheduled for three days later.
+
+Three days later, I joined the meeting at the new time. The interviewer introduced himself and asked me for an introduction. I then had to share my screen and join on a code sharing platform using a link. The interviewer asked me two coding questions.
+
+Question 1: Finding the P50 Score in a Stream
+There are multiple teams playing simultaneously. Every time a team completes a round, it generates a score. We need to write a function that takes a team name and a score and returns the current P50 score (median) and the team it belongs to.
+The P50 score is defined as the middle observation among all scores generated so far. For an even number of observations, the smaller of the two middle elements is chosen.
+
+Example stream:
+["team a", 5], ["team b", 6], ["team a", 3]
+The corresponding P50 scores are:
+["team a", 5], ["team a", 5], ["team a", 5]
+
+Solution
+I first presented the brute-force solution: store all entries in an array and sort it after every insertion. This gives a time complexity of O(n² log n) and a space complexity of O(n).
+
+For the optimal solution, I used two heaps:
+• A max-heap containing the smaller half of the scores.
+• A min-heap containing the larger half.
+The root of the max-heap always stores the current P50 score. On every insertion, the score is placed into the appropriate heap and the heaps are rebalanced so that:
+• size(maxHeap) == size(minHeap), or
+• size(maxHeap) == size(minHeap) + 1.
+Each insertion takes O(log n), resulting in an overall complexity of O(n log n).
+
+The interviewer clarified some doubts I asked regarding edge cases and then asked me to code the solution on the code sharing platform.
+The problem is essentially the same as LeetCode 295 (Find Median from Data Stream), with different wording.
+
+Question 2: Updating Team Scores
+The second question was a harder version of the first. The difference was that each team could have only one valid score at any time. Whenever a team generated a new score, its previous score became invalid.
+
+For example, for the stream
+["team a", 5], ["team b", 6], ["team a", 3]
+the valid scores after the final update are:
+["team a", 3], ["team b", 6]
+and the P50 score becomes ["team a", 3].
+
+Solution
+The brute-force solution was straightforward: maintain all valid scores, remove the old score whenever a team updated its score, and sort the collection again after every insertion. This approach has a time complexity of O(n² log n).
+
+For the optimal solution, I initially considered extending the heap-based approach from the previous question, but heaps do not support deleting of arbitrary elements. Only root elements. 
+I then started thinking in terms of balanced binary search trees (multiset in C++) and hash maps. The interviewer gave me a hint to think about pointers, which led me to the idea of maintaining an iterator for pointing to the current median.
+The discussion converged on the following data structures:
+• multiset<pair<score, team>> to maintain sorted scores;
+• a hash map storing the latest score of every team;
+• an iterator pointing to the current P50 score.
+
+The key challenge was maintaining the median iterator when a team’s score changed. We discussed several cases depending on:
+• whether the old score and new score were on the same side of the median;
+• whether the score crossed the median;
+• whether the updated score itself was the median;
+• whether the number of active scores was odd or even.
+
+My idea was to use lazy deletion: old entries would not be removed immediately from the multiset but would instead be identified using the hash map whenever the iterator moved.
+
+By this point, we were running out of time, so the interviewer asked me to explain the update rules instead of implementing the complete solution. The intended complexity of this approach was O(n log n) time and O(n) space.
+
+Getting to this solution took a considerable amount of time. The interview had originally been scheduled for one hour, but it eventually stretched to around one hour and fifteen minutes because of the discussion around the second problem.
+
+Verdict - Waitlisted at first, then selected
+
+Tips:
+1. Don’t panic after seeing the problem. Stay calm.
+2. If you have an incomplete approach, explain what you have. Chances are that you might get a hint.

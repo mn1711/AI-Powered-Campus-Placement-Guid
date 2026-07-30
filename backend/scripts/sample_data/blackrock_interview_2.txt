@@ -1,0 +1,83 @@
+Interview Experience
+1. Company Name: BLACKROCK
+- Role: Software Engineer Intern
+- Mode (Online/Offline): Online
+
+2. Eligibility Criteria:
+- Minimum CPI required: 7
+- Eligible branches: ALL Branches
+- Any backlog: No Ariers
+
+3. Online Assessment (OA) Questions
+- Platform used : Proprietary
+- Duration: 90 minutes
+- Difficulty level: EASY
+- Topics covered:
+- Coding
+- MCQs (CS Fundamentals)
+
+4. Interview Experience (Technical + HR)
+Technical Round 1 (35 minutes)
+- Topics asked:
+- DSA
+- OOP
+- Operating System
+- Resume-based questions
+
+The interview started with a formal introduction from their side followed by mine. There were 2 interviewers. The first question was from the part that I have said as my introduction. They asked me about the placement cell and why I joined. Why am I not a part of it anymore? (5-6 minutes)
+
+Then a simple BS question. The question started with why BS is used. Time complexities of different sorting algorithms.
+DSA:
+https://leetcode.com/problems/koko-eating-bananas/description/
+I was asked to write the code on a notepad. (15 minutes)
+
+CS fundamental questions on objects, classes, methods, overloading and overriding with examples, inheritance in CPP and JAVA, with difference. (10 minutes)
+
+And finally 2 -3 minutes discussion about Position of Responsibility.
+
+I was answering all the questions without asking for time to think, so they were asking questions on and on, and there were a lot of questions. You can take your time before answering a question.
+
+Technical Round 2 (40 minutes)
+- Topics asked:
+- Project
+- Operating System
+- Discussion about Company expectations, technologies, work-culture, people etc
+
+Again the interview started with the interviewer’s introduction. He was a Director (20 years of experience).
+He started with the project I have worked on. I started explaining to him the project. Here's a catch. I usually start with the project in which I have worked together in a team. And I elaborate on the part on which I have worked.
+You need to drive the interview here. Intentionally speak about things you want to get asked questions about. For example, I always mention that I have used a NoSQL Database for this utility. Now the interviewer will definitely ask why NoSQL, the difference between SQL and NoSQL databases. And then I join that with DB scaling. So almost 25 minutes were invested in this, and he was super impressed with my understanding of how we scale. Also quote the real work that you did while explaining any topic.
+
+I then asked him about his role and team he was into. What work did the team do? What technology do they work on?
+Always ask questions about the company, work culture,...
+This does 2 important things,
+It shows you are interested to know more about the company, and
+Second, an interview is not just about the interviewer knowing you and evaluating you, it's both ways.
+
+HR Interview
+No HR interview
+
+5. Preparation Tips (Do's & Don'ts)
+Do's
+- Revise core CS subjects.
+- Practice DSA regularly.
+- Be thorough with your projects and resume.
+- Communicate your thought process while solving problems.
+- Stay confident and ask questions if anything is unclear.
+
+Don'ts
+- Don't panic if you don't know an answer.
+- Don't interrupt the interviewer multiple times, while he is saying something, even if you have a point to explain. Wait for him to complete.
+- Don't leave coding questions without explaining your approach.
+
+6. Helpful Resources and Advice
+- Coding Practice:
+- LeetCode
+- Codeforces
+- CS Fundamentals:
+- GeeksforGeeks
+- Self made notes for all CS Fundamental Subjects
+
+- Final Advice:
+Start your preparation early, focus on consistency rather than solving hundreds of problems at the last minute.
+Even if you do not know the answer, do not panic. You should have a Poker face. No one should know what's going on in your head.
+Ask for hints, for eg, I am not able to recall this. If you would help me get started with “this” topic.

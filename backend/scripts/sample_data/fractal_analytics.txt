@@ -1,0 +1,49 @@
+Fractal Analytics
+Role offered: Imagineer
+
+There were a total of four rounds (OA + 3 interviews). Although the process was open to all branches with a CPI ≥ 7, only students from CSE, IT, ECE, EE, and MCA were shortlisted for the online assessment. After two weeks of the assessment, the interviews were conducted (midsems took place in between). Both the assessment and interviews were conducted online.
+
+Round 01: Online Assessment (90mins)
+A total of 114 students appeared for the test, conducted on 7th September 2025 on the Fractal360 application, with proctoring done through two cameras: the laptop’s webcam and the phone’s camera. It was a 90 minute test comprising six sections, with a 1-2 minute break after each section:
+● Aptitude: Logical reasoning and quantitative aptitude questions on time & work, profit & loss, probability, number theory, etc. After this section, a random question was picked, and I had to record a video explanation of how I arrived at the answer.
+● Reading Comprehension: Eight unseen passages with one question each.
+● Data Interpretation: Questions based on simple bar and line charts.
+● Technical MCQs: Covered fundamentals of Python and SQL.
+● Coding: Two SQL based questions, the first involved joins across three tables, and the second was based on subqueries and aggregate functions.
+● Communication: It required recording a brief self introduction and explaining why I wanted to join Fractal.
+
+18 students were shortlisted for the interviews, which were conducted on 22nd Sept 2025.
+
+Round 02: Technical Interview (35mins)
+The first interview was conducted online on the HackerEarth platform. It began with a formal introduction of the interviewer, followed by mine.
+● He asked me to explain my projects, cross questioned me about them, and focused on both the ‘why’ (significance of choosing the project) and the ‘tech’ aspects.
+● Since I had also mentioned an ML project in my resume, he asked me basic ML questions, like difference between linear and logistic regression with examples etc.
+● Coding: Implementing a Pandas DataFrame, common data manipulation methods, Python dictionaries (methods to get keys/values, loops, converting dictionary to DataFrame, etc.).
+● He also asked me the differences between lists, tuples, and sets, and asked me to implement them within the dictionary.
+● Then he moved to SQL, and asked me to write a SQL query for a question that was based on joins.
+
+Finally, he asked about my strengths, weaknesses, and how I would adapt to learning new technologies at Fractal.
+
+Round 03: Technical + Managerial Interview (45mins)
+This round was conducted on MS Teams. It began with introductions, after which he asked about my 10th and 12th percentages, CPI, and branch.
+● He asked me to rate myself in Python and whether I was more comfortable with another programming language. Since I mentioned C++, he asked me to open a compiler, write a C++ program based on 2D arrays, and explain it to him.
+● He then asked me to pick something from my resume and explain it in detail, including the understanding, challenges, and achievements. I explained my internship project, and he cross questioned me further (why, how, and how I would explain it in layman’s terms).
+● He also asked me what past experiences inspired or motivated me, what I thought about Fractal’s core values, why I wanted to join Fractal, and if I had any questions for him.
+
+Round 04: HR Interview (20mins)
+This was the final round. The interviewer greeted me, asked about my day and the previous interviews, and then asked for my introduction, my hobbies and interests, and how the current semester is going. She asked me about my previous internship, the difficulties I faced, and how I overcame them. She then asked several general HR questions:
+● How someone would identify “Shubhi” as an individual beyond the resume or NIT Raipur.
+● If not engineering, what field I would have chosen and why.
+● Given two paths, one unknown and filled with new technologies, and the other known with familiar skills, which I would choose.
+● How I keep myself updated with new advancements like GenAI, and the last article I read on technology.
+● How I would use AI responsibly if serving a banking client.
+● How I viewed the Imagineer role at Fractal.
+● Why I wanted to join Fractal and what excited me most about it.
+● Any questions I had for her.
+
+All the interviews were conducted on the same day, and finally, 2 students were offered the role. The interviewers were kind and supportive. If you get stuck, don’t panic, communicate honestly, and they will consider and guide you.
+
+One useful tip: Pay attention during the PPT. In my case, the HR was the same person who had conducted the PPT, and she appreciated it when I referred to examples from the session. Lastly, try to be creative while framing your final question for the interviewer.
+
+All the best!
+~ Shubhi Joshi (ECE, 7th Sem)

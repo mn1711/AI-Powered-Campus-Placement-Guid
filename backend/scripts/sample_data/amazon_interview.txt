@@ -1,0 +1,12 @@
+# Amazon SDE 2 Interview Experience (Seattle)
+
+Round 1: Coding
+The interviewer asked me to solve a variation of the "Number of Islands" problem on Leetcode. I used a Breadth-First Search (BFS) approach. We discussed the time complexity, which is O(M*N), and the space complexity. The follow-up question was about handling a grid so large it couldn't fit in memory.
+
+Round 2: System Design
+I was asked to design a URL shortener service like TinyURL. We discussed load balancing, database partitioning, and generating unique short hashes using base62 encoding. The interviewer was very focused on how the system would handle a massive spike in read traffic, so I suggested using Redis or Memcached as a caching layer in front of the database.
+
+Round 3: Leadership Principles (Behavioral)
+They asked behavioral questions based on Amazon's Leadership Principles. Specifically, "Tell me about a time you had to disagree and commit" and "Tell me about a time you failed to meet a deadline." I used the STAR method to answer these.
+
+Overall, the interview focused heavily on scalable system design and data structures.

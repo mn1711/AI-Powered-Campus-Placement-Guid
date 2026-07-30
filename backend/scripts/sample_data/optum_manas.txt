@@ -1,0 +1,73 @@
+Manas Chilamwar 
+Interview Experience 
+Optum UHG 
+Position: Technology Development Program Associate (FTE – 2026) 
+
+• CTC: 19.21 LPA (Base 18 LPA) 
+• Eligible Branches: CSE, IT, ECE, EE, MCA 
+• Eligibility Criteria: 
+CPI ≥ 7.0 (But only students above 8.0 were shortlisted for OA) 
+• Location: Bengaluru / Hyderabad / Gurugram / Chennai 
+
+Round 1 – Online Assessment (1 hr) 
+The Online Assessment was conducted on CodeSignal platform in CCC lab with strict proctoring. It was the most unique assessment I’ve given and it shows how the companies are rapidly changing their hiring style and selection process. It was not a typical OA asking DSA or Core related problems. Instead it was a time bound AI assisted web development challenge. We were given a codebase that contained the code files of a Full Stack Blogging website. There were four tasks given which were to be implemented in a span of an hour. All the three components- Frontend, Backend and DB schema were provided. To implement a task, changes were to be made across all three components. We were given options to select the tech stack- Django, MERN and Flutter. I was comfortable with MERN so I chose that. An AI bot similar to copilot was also provided and we were encouraged to make full use of it. The tasks ranged from simply modifying the Frontend a little to implementing a whole new feature. The AI assistant could be used to better understand the problem, the codebase or to generate the code. 
+
+The structure of the codebase was very similar to standard full stack websites. If you’ve worked on one of those you’ll immediately understand what I’m talking about. The files were promptly named and structured. So if you’ve genuinely worked on even a single full stack project, you’ll know where to find the bugs. I completed four out of four tasks and was selected to next round along with about 40 students. 
+
+Tips: 
+• When you’re making projects for your resume, pay attention to what you’re doing. Even if you’re copying from youtube or github, be conscious of the file structure, code snippets. Even noticing simple things like this can take you far ahead of your peers. 
+• Don’t panic, don’t hurry. Read the tasks carefully. They’re meant to be solved, you’ll find a way. Just be patient. 
+• The names of the files and folders hide in them a big clue regarding the location of the code snippets relevant to your problem. 
+• Shamelessly make use of the AI assistant provided to you. Use it to understand the task, solve the questions, anything and everything. This is as much about prompt engineering as about software engineering. 
+
+Round 2 – HR Interview (15-20 min) 
+Interview was conducted in MS teams online in CCC panel. The HR first introduced herself and then asked me to introduce myself. These guys are generally very friendly, but I urge you to do not fall for it and avoid being casual. No matter what happens, keep up your decorum. Anyways then I was asked the following question: 
+- Tell me about your strengths and weaknesses? 
+- Why do you want to work for Optum? 
+- Tell me about any leadership roles you might’ve had or your experience working in a group project 
+
+At the end, I was asked if I had any questions. This is a trick question. Do not ask anything random. This is just to check if you’ve been paying attention. By this time you’ve already had one or two interactive sessions with them in the form of pre placement talk. Ask a question you already know the answer to. Like I asked: 
+- Learning opportunities in Optum(they already explained some of it in their presentation) 
+- You can ask the interviewer’s own experience working in the company. Though I avoid it as it’s generally the most asked throwaway question.
+
+Tips for HR round: 
+• Thoroughly study the Job description document and be a little attentive in the pre placement talk. Use the information gathered from there casually in your conversation. It can have a big impact.
+• There are a few very common HR questions. Always keep them handy. At this point you should know your introduction and these questions by heart
+• Don’t take HR rounds lightly. Even if the interviewer is acting casual, you maintain the formal tone. Socho kitni beijjati hogi agar HR round me bahar ho gaye to. 
+• Speak confidently. Take long pauses if you have to but DO NOT FUMBLE. Take time to articulate the question if you have to, do not just jump on it and then figure out midway that you don’t know what you’re getting into.
+Only 5-6 candidates were rejected in this round. 
+ 
+Round 3 – Technical Interview (75 mins) 
+It was a cross between a managerial round and a technical interview. First question is to always introduce yourself(again learn it by heart). He basically asked me each and every aspect of my resume very thoroughly in those 75 mins. Be very aware of what you’re putting in your resume. If you get scrutinized and fail to answer, then that’s basically a rejection. I had two good projects on my resume. He asked me which one of it was my favourite. If you have a project that even remotely resembles the work description, I urge you to choose that. I had a healthcare related project. I explained to him in detail about the tech stack, database structure, APIs and the use cases. You should be aware of your codebase. Nobody’s asking you to explain each and every hook and snippet, but if you act clueless around the code files if you’re asked a question, that’s a big red flag. I casually explained it to him what each folder does and how the project is hosted(make sure your project is hosted). 
+
+He asked some hypothetical questions regarding the features in my project. Then asked me about AI, it’s uses, RAG, transformers(many of the companies nowadays are big on AI, make sure you know these words). It was followed by some basic DSA problems. Finally it was followed by some managerial questions like how do I work in a team, about my leadership roles, about my life at college etc. At the end, he asked me if I wanted to tell him something. This is a question that can sometimes come up in an interview and make sure to prepare for it. I said my piece and it consisted for use of AI in healthcare and Optum’s role in it(most of it was fake but hey it got me the job right!) 
+
+At last, he asked if I have questions. You can get a little creative in technical interviews. I asked about the tech stack we’re working on and the kind of software that are being created. 
+12 candidates were selected after this. 
+
+Tips: 
+• Always remember you’re the one who’s driving this interview and not anybody else. So don’t say anything that might come to bite you back later. For example if ML is not your strong suit, don’t mention it, or you might be scrutinized. Instead mention the things you’re good at and the interview becomes just you talking about your hobbies. 
+• Your resume should contain atleast two really good hosted projects and you should be familiar with the codebase and inner workings(even if you’ve copied it from somewhere). 
+• Know what you’ve mentioned in your resume. If you’re unsure about something, remove it. It’s better to have a shorter resume than a weak resume.
+• Whenever you answer a managerial or HR question- say about your group project or your irl problem solving skills, make sure it’s backed up by a story or incident. Don’t just say, we tackled the problem as a group or that I showed leadership instincts. Tell them what the problem was, what did you discuss, how did you come up with the decision. Imaginary kahani banao, usme apne aap ko hero dikhao but make sure you have couple of such incidents handy. 
+ 
+Some general Tips regarding OA preparation and Interviews 
+• Prepare your DSA well. You should be able to atleast solve a moderate level problem to get through a decent level Online Assessment. Remember that some of them allow partial marking if you’re able to solve some of the test cases. Even if you’re not able to solve the problem, try to pass some of the test cases(only after you’ve given it respectable amount of time). 
+• Use Striver’s sheet for DSA problems. And MAKE NOTES. Otherwise you’ll forget them in the drop of a hat. 
+• Know your level. Be honest with yourself. Do not delude yourself. You know where you stand and choose the companies on the basis of that. If you while away your time, waiting for the perfect opportunity, remember they are few and far between, and even then there’s a very stiff competition. Only way to max out your luck is by maxing out number of trials. 
+• Start sitting for assessments as soon as possible. This is especially imperative if you have a high CPI. You have an unfair advantage early on and it’ll fade as the time passes. Also nobody accounts for the mental toll it takes on your health as your friends and classmates get their jobs. 
+• Study the companies that arrive on campus. In online forums you’ll find the colleges the previously hosted the said company. Try to get the OA questions from there, most of the time they’re exactly the same. There are quite a few online tools to do the same. Find them, use them. Use all the advantage that you can get. 
+• For the CS fundamentals, use GFG or other similar online resources. Make sure you do Operating Systems, DBMS, Programming knowledge and OOPS. System design and AI(atleast know the basic terms like transformers, RAG etc) are the new favourites of interviewers. Anything more than that is an overkill and you can spend that time doing DSA. 
+• Appear confident in the interviews(I know fatti padi hai but still). Learn to say no. If you don’t know about something, do not make up answers. Just confidently tell them and they’ll move on to the next question. It is imperative that you don’t waste interviewer’s time. 
+• Have a solid grasp on your projects. It doesn’t matter if you’ve copied them from somewhere, or whatever you did to get them. If you can explain them well then they are your projects, nobody’s checking. 
+• If you’re given a problem to solve by the interviewer, ask questions. A lot of questions in fact. What are the constraints, what are the approaches allowed etc etc. They don’t wanna see if you remember how to solve an obscure exception of a standard problem. They want to see how you think. Think of it more like a discussion rather than an exam. And if nothing works, never be afraid to ask or hints or even a change of problem. It’s better to be honest than to waste time.
+• Interview me utna hi feko jitna lapet sako. Most of the time they know immediately when you’re making a long meandering story or a lot of excuses. Keep it short and to the point. 
+• At last I want to leave you with a change in mindset. Do not optimize for success. Optimize for failures. Set up a goal let’s say I’ll fail atleast 10 interviews and I can guarantee you that you’ll never achieve that goal cuz you’ll be placed way before that. Just aim to fail a set amount of times. 
+• If you have any doubts, or you wanna seek advice, or you have gossips(especially gossips) you already know how to reach me. 
+
+Always rooting for you.
+All the best for your placements and your life ahead. 
+Vijayi bhava. 
+
+Regards, 
+Manas Chilamwar

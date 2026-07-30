@@ -1,0 +1,56 @@
+DHARAVATH RAHUL NAYAK
+ECE 22116031
+ZS ASSOCIATES INTERVIEW EXPERIENCE
+BTSA ROLE
+
+The hiring process was divided in 2 phases and it lasted for 3 days (11 August- 13 August). All the online tests were virtually conducted on mercer mettle platform and the interviews were held offline in CDC. 
+
+Phase 1: Common for both, BTSA and DAA roles. 
+
+Round 1- Aptitude Test There were 6 sections. 
+● Attention to detail (5 questions in 25 mins)- very easy, counting shapes, observation related questions, do this very very fast…
+● Guesstimate (2 guesstimates in 14 mins)- footfall in a Dubai mall everyday, number of Audi cars sold in Delhi every year, Number of gas stations in Chicago, etc. 
+● Numerical Aptitude (8 questions in 8 minutes)- Ratio proportion, profit loss, probability, basic arithmetic questions 
+● Critical thinking (8 questions in 8 minutes)- Multiple statements or paragraphs might be given and you have to draw conclusions from those statements and choose the right option. Be calm and read the statements with focus, it won't be too difficult. It will be difficult if you panic under time pressure so relax.
+● Verbal Ability (8 questions in 5 minutes)- Fill ups related to grammar, synonyms antonyms, etc 
+● Analytical ability (8 questions in 8 minutes)- encoding decoding, pattern matching, pattern recognition, etc. Every section was timed. There was no negative marking. Questions overall were of easy level, just prepare your mindset for the time pressure. Shortlisted students from this round were sent a link for the English proficiency test via mail. 
+
+Round 2- English Proficiency There were 5 sections.
+● Recorded clips were provided that you could play just once. Listen to the clip and submit a voice recording of you saying the content of the clip. 2-3 clips were longer at last, others were short and easy. 
+● 1minute speaking test. A random topic like “how was your weekend”,”your dream house” is given and you have to speak on it for 60 seconds. You're given 90 secs prep time for each topic to think. 
+● 2minute voice recordings were given and there were 2-3 questions based on what the recording said. You can't play the clip again so listen very carefully and try to remember the contents. 
+● A 200 word essay was supposed to be written on the given topic.
+● 35 fill in the blanks on English grammar, tense, etc to be done in 10 minutes. Every section was timed here too. I forgot the time of each section but overall the test was very easy and almost everyone cleared it. You can get rejected if you get interrupted somehow in between the test so have a internet connection
+
+Phase 2: Technical for BTSA
+
+Round 3- Technical Test There were 3 sections. 
+● 1 DSA question of easy-medium level(find the maximum value from a array by multiplying the values of k(starts from 1 to size of array i..e increments for every operation)by the left or right most value of the array and delete that element from array (recursion). Language options were Java and python
+● 10mcqsonSQL.Again, easy to medium questions
+● 2querywriting. Schemas were provided and you were supposed to write the required query. 
+
+Round 4:Technical Interview 1
+●Introduce yourself and include your background also
+●He asked me around 10 queries SQL( Advance)
+● Then Directly step into DBMS (Normalization and De-Normalization,ER diagrams,Manipulaiton,Concurrency control)
+●Then went Deeply into OS , OOPS ,Basics of CN
+● Question:On an e-commerce website, you need to find a specific T-shirt that has:
+ Color: white
+ Tag: "ZS"
+ Brand: top-rated (based on reviews)
+ You need to find this T-shirt using recursion, and provide pseudocode for the solution. And some other question
+
+Round 5: Technical Round 2 (No HR for ZS)
+ Introduced myself.
+ Explained my project with architecture diagrams, challenges faced, and solutions.
+ Focused on real-world technical scenarios.
+Scenario:
+A diagnostic center in Warangal has mixed X-rays, pathological images, CT scans, and blood/urine test results.
+Q1: How would you store these results?
+Q2: How would you use them to recommend treatment to patients without a doctor visit?
+Required: Describe the approach, model, algorithms, and full pipeline, explaining the choice of algorithm.
+The interviewer was impressed with my answer.
+They announced the result at 9 PM in person at CCC(In person )
+FINAL VERDICT: SELECTED
+
+Tips: Be Confident on what you speak through every point and crystal clear…….

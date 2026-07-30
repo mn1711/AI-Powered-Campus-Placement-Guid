@@ -1,0 +1,81 @@
+Cloudera FTE Interview Experience
+Role: Software Engineer Intern ( 6 months intern + Performance Based Conversion )
+There were 4 rounds in total ( 1 OA Round + 3 interview Rounds ).
+The Company visited our campus on 25 September and All the process was done on the same day itself.
+In morning time we were first called to visit for PPT Talk. After the ppt talk we were headed to Labs for OA. The recruiters were there in campus monitoring the whole process.In evening around 6 pm result was declared- 4 students were selected including me.
+
+Round 1 : Online Assessment ( 75 minutes )
+There were three questions - 2 Coding Questions(I would rate both of them as Leetcode medium and hard ) + 1 SQL .
+● One was a Leetcode medium graph question - I solved it using union find method.
+● Other Coding Question was hard question related to Maths and simulation.I couldn’t solve this one
+● The SQL question was an easy standard one. Solved it.
+● You can practice SQL from Leetcode sql 50 or sql-practice.com .
+
+Round 2 : DSA Round Interview
+The interview lasted for 50 minutes.
+It began with introductions, followed by two DSA questions:
+● The first was regarding the Tree data structure, covering its practical applications and traversal techniques.
+I was asked to implement a Vertical Order Traversal, which required building the tree structure and writing the traversal algorithm.
+● The second problem was on Binary Search on Answer, similar to the "Koko Eating Bananas" problem on LeetCode.
+Pro-tip: Even if you are familiar with a problem or have solved it previously, always ask the interviewer clarifying or follow-up questions.
+For the initial question, I walked him through my conceptual intuition and thought process using practical examples before implementation. I then coded the solution using his provided online IDE. Following this, he questioned me on the time and space complexity of my implementation as well as other tree traversal methods.
+Since I completed the first question with remaining time, we proceeded to the second problem.
+I began by asking clarifying questions, then discussed a brute force intuition. When asked to optimize the solution, I explained the conceptual approach of a more efficient method using examples, written the pseudo code and explained its time and space complexity.
+Due to time constraints, I was not asked to write out the code for the second question.
+Before ending the session, I asked the feedback. It was good and satisfactory.
+
+Round 3: CS Fundamentals
+This round took approximately 50-55 minutes and started with standard introductions.
+- Operating System Concepts (25 minutes)
+- Covered topics including multithreading vs. multi-processing, deadlocks, race conditions, and strategies for deadlock avoidance and prevention. Questions also addressed the bootloader program, paging, page replacement algorithms, segmentation, process vs. thread context switching, virtual memory, causes of thrashing, look-aside buffers, caching methodologies, demand paging, internal and external fragmentation.
+- DBMS Concepts (15 minutes)
+- Explored concepts such as database keys, denormalization, database sharding, differences between SQL and NoSQL platforms, ACID vs. BASE properties, and the distinction between zombie and orphan processes.
+- The interviewer noted MongoDB on my resume from a project and questioned me regarding my choice of it and its primary use cases.
+- Object-Oriented Programming (OOPs)
+- Included standard conceptual questions- Friend Function, Overriding , Overloading, Runtime polymorphism and Compile time polymorphism, Inheritance , Abstract Classes and Interfaces.
+- Computer Networks (10 minutes)
+- Tell the differences between IPv4 and IPv6, TCP/IP protocols, reverse proxy, dynamic routing, the security layer represented by the 'S' in HTTPS, and DNS . Also I was asked about command-line tool used to find an IP address from a domain name, subnetting, and the significance of Network ID vs. Host ID.
+Before finishing the session, I asked for the feedback.
+
+Round 4: Technical (Projects + System Design & DevOps Basics + Puzzle) + Managerial Round
+This was toughest interview in all three rounds . Was scheduled for 45 minutes, but went till 1 hour and 10 minutes.
+Whenever I got stuck in DevOps and System Design, I actively asked the interviewer for hints.
+We began by reviewing my projects. It went well.
+Next, he asked me DevOps concepts, asking:
+● What DevOps is and where it sits in software development.
+● Commonly utilized tools in DevOps —I have read somewhat about Docker and Kubernetes, answered whatever i could remember.
+● What containerization means and its core benefits.
+● Docker image and its formation.
+
+In the System Design segment, the topics included:
+● Load balancing, caching, DNS, proxies, firewalls, and monolithic vs. microservices frameworks.
+● Designing the architecture for an ATM machine. While I could not provide a complete architecture, I tried explaining functional requirements and analysed failure cases with their solution.
+
+He then given me a puzzle to solve:
+“Suppose you are standing on a bank of river and river is huge . On the other side there are balloons of same colour and size . The river is so huge that you cannot see the difference in two balloons.You have to give me the count of balloons that are present on other side“.
+This was an unfamiliar problem for me. I attempted by suggesting that I could randomly shoot arrows across the river with a bow and count the popping sounds to determine the total number of balloons.
+He replied nice try but wanted a more specific answer.
+The final 10 minutes were dedicated to behavioral and managerial questions:
+- What do you know about Cloudera?
+- Why do you want to join Cloudera?
+- Where do you see yourself in the next 5 years?
+- What do your biggest strengths and weakness?
+- What steps have you taken to deal with your weakness ?
+
+After this round finally 4 students were selected.
+
+Preparation Guide :
+● For DSA , Strivers Sheet Specially the SDE Sheet would do your almost all of your work.
+● CS Fundamentals:
+○ DBMS : Love Babbar youtube course.
+○ OS : i followed love Babbar 1 shot + Using Chatgpt and Ai tools explore yourself wide variety of questions asked in interviews
+○ OOPS : Search and study through internet + Saurabh Shukla OOPS He has explaining OOPS core concepts in such a detail no one can on internet.
+● Projects:
+○ You must be able to explain your project, its problem , challenges faced and how you resolved them, tech stack used and why you chose them.
+○ You also can be asked questions about the technologies that you have used.
+
+Tips :
+● Be very genuine in front of interviewer. If you are stuck with questions , ask for hints .
+● Trying for a question is considered a good sign instead of just denying it.
+● For DSA Rounds focus more on explaining the thought process and intuition with examples first, then write pseudo code and then you write the code( if asked ).
+● Always ask follow Up clarifying Questions that includes the edge cases before jumping to solution.

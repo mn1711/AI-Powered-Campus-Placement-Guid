@@ -1,0 +1,48 @@
+Sixt R&D Interview Experience
+Jiya Taank
+
+There were a total of four interview rounds- two technical rounds, one managerial, one HR.
+ONLINE ASSESSMENT :
+It consisted of 14 MCQs (from aptitude, operating system, dbms, computer network ) and two DSA questions (first was a 2d DP problem relating to modified version of no. of paths in a matrix, second was binary tree problem).
+
+1st TECHNICAL INTERVIEW:
+After introduction, interviewer asked few questions relating to project mentioned in resume, then jumped to DSA question .
+1. Given a binary tree, ( root and target node), and an integer k, return all nodes at a distance k from target node. – asked approach , then asked to write complete code .
+2. Given a binary matrix (nxm), 1-land, 0-water, return no. of unique islands.
+(if an island is found, then all its mirror images won’t be considered as unique),
+Mirror images with respect to x axis, y axis, line x=y.
+In this question , he asked only approach.
+At the end he invited me to ask any questions if I had.
+
+2nd TECHNICAL INTERVIEW:
+Since he already had my resume ,feedback from previous interviewer etc, he directly jumped to questions.
+First, asked what data structures I was familiar with, if I was comfortable with DP.
+Then asked basic questions- difference between binary tree and binary search tree, what is balanced binary search tree.
+Then asked two DSA question:
+1. Given a binary tree in array form, convert it to balanced binary search tree.
+Asked to write the pseudo code.
+2. Question from monotonic stack ,” maximal rectangle”
+https://leetcode.com/problems/maximal-rectangle/description/
+Asked, first, the approach, then told to write complete code with all helper functions, then asked line by line dry run with the example he gave. ( He kept asking questions in between, wherever he was having confusion).
+At the end he invited me to ask any questions if I had.
+
+MANAGERIAL INTERVIEW:
+Directly jumped to DSA question:
+1. Given an array containing positive and negative integers, rearrange them as positive -negative alternatively, not necessarily sorted. – (in O(N) time complexity, and O(1) space complexity).
+Asked approach, then told to write the complete code.
+2. Given a linked list, first detect if there is loop in it, if loop is there , find the node and break the loop.
+Asked to write complete code.
+After that asked few questions from OS, DBMS, OOPs. Then asked if I had any questions.
+
+HR INTERVIEW:
+This was pure HR round, questions asked:
+1.How was your experience so far.
+2.Few questions regarding project ( non-technical ).
+3.Strengths and weakness.
+4.Family Background.
+5.Last book I read apart from course/tech books, to which I replied regarding my hobby of reading fictional novels in leisure time, and about the last book I read, a little about its author, genre.
+6. ( follow-up from previous) What is one take away that you want to implement from the story of that novel.
+7. What you like to do to release your stress, or one thing that helps you calm, relax after a busy day.
+8.How comfortable are you to move to Bangalore.
+9.Last time you travelled out of station without your family.
+Asked if I had any questions.

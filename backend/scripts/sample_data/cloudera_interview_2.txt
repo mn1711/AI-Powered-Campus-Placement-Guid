@@ -1,0 +1,38 @@
+Cloudera Interview Experience
+
+I appeared for the Cloudera on-campus hiring process, and overall it was a well-structured process that tested problem-solving ability, core computer science fundamentals, SQL, and communication skills. The process consisted of an Online Assessment followed by three interview rounds.
+
+Online Assessment (OA)
+The day started with a short presentation (PPT) by the Cloudera team at around 8:00 AM, where they introduced the company and explained the hiring process. Immediately after that, we began the Online Assessment.
+The OA consisted of 2 DSA questions and 1 SQL question.
+● The first DSA problem was based on Union Find (Disjoint Set Union) and was around LeetCode Medium difficulty.
+● The second DSA question was significantly harder. It was a mathematical/problem-solving question with a difficulty close to LeetCode Hard or Codeforces 1600–1800. It was quite challenging, and as far as I know, almost no one was able to solve it completely. Most candidates managed to pass only partial test cases.
+● The SQL question tested fundamental query-writing skills.
+The OA primarily evaluated strong DSA fundamentals along with practical SQL knowledge.
+
+Interview Rounds
+Around 20 candidates were shortlisted for the interview process, which consisted of three rounds.
+
+Round 1
+The first round mainly focused on Data Structures & Algorithms, Object-Oriented Programming (OOPs), and SQL. The interviewer discussed my approach to the coding problems and asked several follow-up questions to optimize the solutions. They also asked conceptual OOPs questions and SQL queries involving joins, grouping, and basic database operations.
+
+Round 2
+The second round was heavily focused on Computer Science fundamentals. The interviewer spent nearly 90- 100 minutes discussing topics from Computer Networks (CN), Operating Systems (OS), DBMS, and OOPs in depth. The questions were mostly conceptual. The CN questions were particularly good and required a clear understanding of networking concepts.
+
+Round 3
+The final round was a combination of technical and HR discussions.
+The interviewer first asked me to walk through my resume and explain my projects in detail. They discussed my project architecture and the technologies I had used. After that, they asked questions from OOPs, DBMS, SQL, and language-specific concepts. One interesting discussion was about my preferred programming language—why I chose it and why I preferred it over other languages. The round concluded with standard HR questions related to teamwork, career goals, and why I wanted to join Cloudera.
+
+Preparation
+For anyone preparing for Cloudera, I would recommend focusing equally on DSA, SQL, and Computer Science fundamentals.
+For OOPs, I followed Saurabh Shukla's playlist, which covers all the important concepts in a simple and interview-oriented manner.
+For Operating Systems and DBMS, I referred to Love Babbar's lectures, which are sufficient for interview preparation.
+For Computer Networks, I highly recommend Jim Kurose's lectures and the book Computer Networking: A Top-Down Approach. Cloudera asks high-quality networking questions, so having a strong conceptual understanding is very beneficial.
+For SQL, solving the LeetCode Top 50 SQL problems is more than enough to build confidence.
+For DSA, I would recommend the following progression:
+● Start with the Striver A2Z/DSA Sheet to build fundamentals.
+● Solve problems from CSES to strengthen problem-solving skills.
+● Practice regularly on Codeforces to improve speed and exposure to diverse problem types.
+● Before interviews, revise using the NeetCode 200 list.
+
+Overall, Cloudera's hiring process emphasizes problem-solving ability, strong CS fundamentals, and clear communication. If you are consistent with DSA practice, revise your core subjects thoroughly, and are able to explain your projects confidently, you will be well-prepared for the interviews. Best of luck to everyone preparing!

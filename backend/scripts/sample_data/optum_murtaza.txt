@@ -1,0 +1,74 @@
+Optum TDP Associate (FTE) Placement Experience
+2025–2026
+Murtaza Narwarwala, Electronics and Communication Engineering, 2026
+
+The Placement process consisted of a PPT talk, an Online Assessment, one HR round, and one Technical round.
+
+PPT Talk (20th September 2025)
+The placement process began with a pre-placement talk (PPT) by Optum.
+Advice: Listen carefully to the presentation about the company and its work culture. It’s a good idea to interact with the presenters and create a positive impression early on. You can also prepare a few thoughtful questions to ask HR or the interviewer later.
+
+Online Assessment (Same day after PPT)
+The online assessment was conducted from CCC on CodeSignal. Unlike the previous year’s traditional format of aptitude and DSA problems, this year’s assessment was a development-based challenge.
+
+We were given an existing article web application and asked to add a new feature. In my case, the task was to implement a View Count UI. The task was divided into four tiers, each carrying individual marks.
+
+Duration: 1 hour
+Platform Tools: Built-in terminal and AI assistant
+If you are familiar with web development and know how to effectively use AI tools for coding, this round is quite straightforward.
+
+I completed all four tiers successfully, although I faced a problem midway, the terminal crashed and caused some database errors, which prevented me from previewing my implementation. Still, I finished all the tiers and scored full marks.
+Tip: Don’t get stuck debugging one issue for too long. Even if an error occurs, continue implementing the remaining tiers.
+
+Out of 121 candidates, 41 were shortlisted after this round.
+
+HR Interview (23rd September 2025)
+The HR round started with a self-introduction. The interviewer was calm and friendly, which helped make the conversation smooth.
+
+Since I am from an ECE background and had done my internship in a core (robotics) field, I was asked whether I see myself working in core or non-core domains in the next five years. I explained my interest in both, and also mentioned how my ECE foundation helps me in software roles.
+
+Other questions included:
+● Challenges faced during my internship and how I handled them
+● How I would explain technical concepts to non-technical people
+● What excites me about Optum’s TDP Program
+● My thoughts on the online assessment experience
+
+At the end, I asked questions about the TDP program evaluation process and opportunities like hackathons or innovation sprints during the program.
+
+Duration: 20–30 minutes
+Result: 34 candidates were shortlisted out of 41 for the next technical round.
+
+Advice: The HR round mainly evaluates your communication skills, confidence, and fit for the role. Stay calm, smile, and answer naturally. Optum’s HR team is generally friendly and conversational; no technical questions are asked here.
+
+Technical Interview (25th September 2025)
+The technical interview began with a short introduction. The interviewer happened to be an NIT Raipur alumnus, which made the discussion more comfortable.
+
+He asked about:
+● Programming languages I know and which one I’m most proficient in
+● Technologies I have the most command over
+● My familiarity with AI/ML (rated on a scale of 1–5)
+
+Then came some basic SQL and DSA questions:
+1. Find the second highest salary from the employee table
+2. Display employee salaries incremented by 10%
+3. Check if a number is prime
+4. Reverse a string
+5. Generate a Fibonacci series
+
+After that, we discussed my major project and a club collaboration project. The focus was more on challenges, problem-solving, and creativity rather than deep technical implementation.
+
+The interviewer also asked why I wanted to join Optum.
+
+Toward the end, the interviewer shared his own journey at Optum and asked if I had any questions. I asked about how Optum adapts to evolving technologies and the learning opportunities available for engineers at Optum.
+
+Duration: 40–50 minutes
+Result: 12 candidates were finally selected.
+
+Advice: Optum’s technical interviews usually focus on practical knowledge rather than deep theoretical or complex DSA problems. Be confident about what you’ve mentioned in your resume, and make sure you can explain your projects clearly. Good development skills, along with basic DSA and SQL understanding, give you a definite edge.
+
+Final Thoughts
+Optum’s placement process is structured, friendly, and practical. Strong fundamentals in development, SQL, and simple DSA, combined with clear communication, are enough to perform well.
+
+Use your projects to showcase your abilities and ask meaningful questions during interviews to show genuine interest.
+
+Good luck. Stay calm, prepare well, and trust your process.

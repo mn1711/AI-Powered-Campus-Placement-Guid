@@ -1,0 +1,53 @@
+Walmart Interview Experience(2026 off- campus)
+ (Internship(2M+6M)+FTE)
+I got this opportunity through WALMART CODEHERS 2025-2026.
+
+About CodeHers 2025:
+CodeHers is an exclusive coding challenge organized by Walmart Global Tech India, designed to empower female engineering students and make technology careers more accessible. This two-day event attracts over 1,25,000+ registrations annually and provides a platform for students to showcase their coding skills, compete with peers, and unlock exciting career opportunities with one of the world’s leading tech companies.
+
+Eligibility Criteria:
+1. Degrees Eligible:
+B.E/B.Tech (Full-time) – Batch of 2025 & 2026.
+Dual Degree (B.Tech + M.Tech) – Batch of 2025 & 2026.
+M.E/M.Tech (Full-time) – Batch of 2025 & 2026.
+2. Branches Eligible:
+Circuit Branches Only: CS, IT, ECE, EE, EEE.
+3. Academic Requirement:
+Minimum 7.0 CGPA.
+
+Competition Structure:
+The challenge consists of three levels:
+1. Level 1 – MCQ Challenge:
+25 objective questions to test computer fundamentals.
+Time limit: 25 minutes.
+2. Level 2 – Coding Challenge:
+2 problem statements to solve in 90 minutes.
+Focus on logical coding solutions.
+3. Level 3 – Final Evaluation:
+Cumulative scores from Levels 1 & 2 will be considered.
+Top performers will be shortlisted for interviews.
+
+Result Declaration Process:
+Each coding question carries 100 marks (equal weightage for private and public test cases).
+It took almost 3 months for the completion of whole process.
+
+Internship Interview Experience(2M-Technical+Hr):
+Firstly, I introduced myself to the interviewer. He then asked about the college and courses.
+He asked the Cs fundamentals like Oops concepts, Exceptional Handling code, All Access modifiers in detail, How are objects created, where are they stored and instantiation , Slow-fast pointers, Double Linked List and its real life applications , **Pointer and its real life applications, Heaps and applications of heaps, Stack application, Trees ,Graph and types of trees and then moved to DSA
+
+Coding:
+Ques 1: Detect loop in a Double Linked List
+This is a standard striver question so i managed to do it using slow-fast pointer approach. This is a medium level question.
+
+Ques 2:Heaps Question (medium level) and a follow up question.
+
+Finally, for 10 min he asked basic hr questions.
+The interview went for 50-55 minutes and then after 45 days I got a mail that I was selected.
+Later,6M+FTE got converted with the collective peformance.
+
+Tips for cracking interview
+1. Along with good DSA and technical knowledge, you should have strong communication skills.
+2. Be confident in your answers and try to make conversation light.
+3. Have knowledge of the background of the company .
+4. Do not include words that you are not confident about, as your next question will likely start from that topic.
+5. Be thorough with your resume.

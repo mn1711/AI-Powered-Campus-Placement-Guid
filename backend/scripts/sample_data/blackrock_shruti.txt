@@ -1,0 +1,41 @@
+BlackRock Interview Experience
+Name: Shruti Karmakar 
+Role: 6-month internship +FTE(PBC)
+
+The BlackRock on-campus placement drive at my college was a rigorous yet rewarding process. It was conducted completely online and consisted of four main rounds:
+
+1. Resume Shortlisting 
+The first stage was resume shortlisting. Only candidates whose resumes aligned well with the job profile and required skills were shortlisted for the next round. This emphasized the importance of having a clear, well-structured resume highlighting relevant projects, internships, and technical skills.
+
+2. Aptitude Round (2.5 Hours) 
+The second stage was the aptitude test, which lasted around 2.5 hours. The test was quite comprehensive and covered multiple areas:
+• SQL Questions – Queries involving joins, aggregations, and constraints.
+• Verbal Reasoning – Testing comprehension, grammar, and communication.
+• Logical Reasoning – Puzzles, pattern recognition, and analytical thinking.
+• Programming Questions – Coding problems to check problem-solving ability.
+• Analytical Questions – Real-world case-based reasoning.
+This round tested both technical and problem-solving skills, ensuring only well-rounded candidates progressed further.
+
+3. Technical Interview 
+After clearing the aptitude round, I moved on to the first interview, which was technical in nature. The focus here was largely on my resume and prior experiences.
+• I was asked detailed questions about my projects and summer internship.
+• They went deep into the tech stacks I had mentioned (programming languages, frameworks, tools).
+• Some puzzles were also given to test logical thinking under pressure.
+• Overall, it was a mix of conceptual questions and practical application based on my work.
+The interviewer carefully evaluated whether the skills listed in my resume matched my understanding and problem-solving ability.
+
+4. HR Interview 
+The final round was more of an HR + communication round. The interviewer was very friendly, which made the conversation smoother.
+• I was asked about my hobbies and interests.
+• They gave me two puzzles, testing how I approach problems.
+• The rest of the discussion revolved around my communication skills, teamwork, and cultural fit for the company.
+
+Final Thoughts 
+The overall experience with BlackRock was very positive. The process was challenging but well-structured. The technical round ensured that candidates had the right knowledge, while the HR round focused on personality, communication, and problem-solving approach.
+I found the interviewers to be approachable and encouraging, which helped me stay calm during the process. It was a great learning experience, and I am glad to share that I got selected at the end of the process.
+
+For future aspirants, I would recommend focusing on:
+• Building a resume with strong, genuine skills.
+• Practicing SQL, coding, and puzzles.
+• Preparing to explain projects and internships in detail.
+• Working on clear communication and confidence for HR rounds.

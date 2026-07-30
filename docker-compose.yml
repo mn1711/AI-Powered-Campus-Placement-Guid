@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: interview_prep_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: interview_prep
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: interview_prep_qdrant
+    restart: always
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  backend:
+    build: ./backend
+    container_name: interview_prep_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - qdrant
+    env_file:
+      - ./backend/.env
+    environment:
+      - POSTGRES_SERVER=db
+      - QDRANT_HOST=qdrant
+    volumes:
+      - ./backend/scripts/sample_data:/app/scripts/sample_data
+
+volumes:
+  postgres_data:
+  qdrant_data:

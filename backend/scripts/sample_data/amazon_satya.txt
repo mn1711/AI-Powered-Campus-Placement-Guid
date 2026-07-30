@@ -1,0 +1,36 @@
+Amazon Recruitment Experience
+
+Candidate Profile
+● Name: Satya Prakash Jena
+● Branch: Information Technology (IT)
+● Roll: 22118089
+● CPI: 9.19
+Offered Role: SDE Intern
+
+Phase 1: Amazon Hackon
+The first step in the recruitment process was the Amazon Hackon. Successfully navigating this phase is crucial for receiving the hiring interest form.
+● Format: 2 Data Structures and Algorithms (DSA) questions and 1 SQL question. There will be 20 - 25 MCQs based on DSA and CS Fundamentals as well.
+● Difficulty: The DSA questions typically consist of one medium and one easy problem. During my attempt, the medium question was based on bit manipulation.
+● Outcome: I was selected up to the prototype round. Solving all three questions generally prompts Amazon to share their hiring interest form.
+
+Phase 2: Online Assessment (OA)
+Following the hiring interest form, candidates are invited to complete the Online Assessment.
+● Technical Section: Comprised 2 DSA questions. One was mathematical, and the other was similar to the Number of Visible People in a Queue problem.
+● Behavioral Section: An approximately 1-hour behavioral assessment focused heavily on Amazon's Leadership Principles (LPs).
+● Pro Tip: The behavioral assessment is critical. Ensure your answers are consistent and do not contradict each other. Amazon takes this very seriously.
+
+Phase 3: Virtual Interview
+The technical interview was conducted on Amazon Chime, and code was written on an internal Amazon document rather than a standard IDE.
+● Interviewer: Software Development Engineer II (SDE 2) from NSUT Delhi.
+● Question 1: Longest Substring Without Repeating Characters. The interviewer expected both the standard sliding window approach and its optimized version.
+● Question 2: Maximum Area in a Histogram (Largest Rectangle in Histogram).
+● CS Fundamentals: Core subjects may or may not be asked depending on the flow of the interview. During my interview, I was specifically asked about Distributed Systems.
+● Behavioral/Project Discussion: While some peers were asked about their projects, my discussion was entirely centered around Leadership Principles.
+
+Key Takeaways
+● Solve Two Problems: You must solve 2 questions within the allotted interview time. If you only solve one and the interviewer cannot reach the second question, it is a strong minus.
+● Pacing: Try to solve the easier question within the first 15 minutes. This will give you 25-30 minutes to confidently tackle the second question.
+● Verbal Communication: Practice explaining your thought process verbally without relying on pen and paper. Strong communication skills are vital.
+● Leadership Principles (LPs): Amazon takes its LPs very seriously. Thoroughly read up on principles like Bias for Action, Ownership, and Deep Dive before your interview.
+● Resume Alignment: Make sure to reflect these Leadership Principles through your projects and work experience on your resume.
+● Coding Environment: Get accustomed to writing code in a plain document environment without syntax highlighting or auto-complete.

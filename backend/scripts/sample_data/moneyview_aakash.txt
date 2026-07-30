@@ -1,0 +1,135 @@
+Moneyview Interview Experience (On-Campus Placement)
+Company Overview
+Company: Moneyview (FinTech)
+Moneyview conducted a parallel pool recruitment drive across four NITs:
+• NIT Jamshedpur
+• NIT Rourkela
+• NIT Trichy
+• NIT Raipur
+
+Eligibility Criteria
+• Minimum CPI: 8.0
+• Eligible Branches for Online Assessment: All branches
+• Eligible Branches for Interview Rounds: CSE, IT, and ECE
+
+Round 1: Online Assessment (OA)
+The Online Assessment consisted of approximately 60 MCQs along with 2 DSA coding questions.
+Coding Questions
+• The first question was based on the Fibonacci series, but it was not the standard implementation. It required a slightly different approach.
+• The second question was related to DFS (Depth First Search). I initially attempted it using DSU (Disjoint Set Union), although the expected approach was based on graph traversal.
+
+The overall OA was of medium difficulty, with a balanced mix of aptitude, computer science fundamentals, and coding.
+I was not able to solve 2nd completely some test cases were failing ,but the main game was of Aptitude , so around 30-32 people were selected for interview
+
+Technical Interview Round 1 (Approximately 1 hour 15 minutes)
+This round mainly focused on Data Structures & Algorithms along with Computer Science Fundamentals.
+
+DSA Questions
+I was asked to solve three coding problems:
+• Binary Search on a Rotated Sorted Array
+• A question based on Binary Trees
+• Detect Loop in a Linked List
+
+The interviewer was equally interested in understanding my thought process rather than just the final code, well I was able to solve all the questions , make it interactive by telling the approach and discuss it while you code each and every line why you wrote it 
+
+OOPs & C++
+Since my primary programming language was C++, the interviewer shifted towards Object-Oriented Programming concepts.
+Some of the topics discussed were:
+• OOP Principles
+• Operator Overloading (along with coding)
+• C++ concepts and implementation-based questions
+
+DBMS
+The interviewer also asked questions related to:
+• Database Sharding
+• Memory Management Techniques
+• Basic DBMS concepts
+
+Overall, this round was a good combination of DSA + CS Fundamentals.
+
+Technical Interview Round 2 (Approximately 1 hour)
+Personally, I found this round to be more challenging than the first one.
+The interviewer focused heavily on System Design and object-oriented design concepts.
+
+Topics Covered
+• SOLID Principles
+• Real-life examples based on SOLID principles
+• Basic Object-Oriented Design
+
+System Design Question
+I was asked to design a Chess Game.
+I wasn't completely familiar with designing the entire system. However, instead of giving up, I started by explaining my approach.
+I created:
+• Classes
+• Data Members
+• Member Functions
+• A basic UML Diagram
+
+The interviewer was not expecting a complete implementation. Instead, he appreciated the way I approached the problem and how I structured my design.
+One important takeaway from this interview was:
+Even if you don't know the complete solution, explain your thought process confidently. Interviewers often value your approach more than a perfect answer.
+
+Operating System & Computer Networks
+The discussion then moved towards OS and CN.
+Some of the questions included:
+• Basic Operating System concepts
+• Computer Networks fundamentals
+• A real-world example involving a Firewall
+• How many cores are present in a computer?
+• General system-related questions
+
+Fortunately, I had prepared Computer Networks well, which really helped me during this round.
+One interesting thing the interviewer mentioned was that the previous candidate wasn't comfortable answering Computer Networks questions, so having a strong foundation definitely made a positive impression.
+
+HR Interview
+The HR round was quite relaxed.
+The HR mentioned that he was happy with my performance in the technical rounds as said by the past interviewers.
+Some of the questions asked were:
+• Are you comfortable relocating to Bangalore?
+• Tell me about yourself.
+• What are your hobbies?
+• How was your interview experience?
+• General discussion about my interests and career goals.
+
+Overall, it was more of a conversation aimed at understanding my personality and ensuring that I was a good cultural fit for the company.
+
+Some Useful Tips
+1. Be mindful of what you speak.
+Always think before answering.
+Keep your answers short, crisp, and to the point. Interviewers generally appreciate clarity more than lengthy explanations.
+
+2. Take a few seconds before answering.
+If you're asked a coding or conceptual question, it's completely okay to take 30–60 seconds to think.
+A well-structured answer is much better than rushing into an incorrect one.
+
+3. Communicate while solving coding questions.
+One mistake many candidates make is solving the question silently.
+Instead:
+• Start with the brute-force approach.
+• Explain why it isn't optimal.
+• Gradually move towards the optimized solution.
+• Keep explaining your thought process while writing code.
+This creates a healthy interaction with the interviewer and shows that you genuinely understand what you're doing instead of reproducing a memorized solution.
+
+4. Even if you don't know the complete answer, don't stop.
+For design questions especially, explain whatever you know.
+Draw diagrams, define classes, discuss possible approaches, and keep the conversation going.
+Interviewers usually appreciate candidates who can think logically under pressure.
+
+5. Revise CS Fundamentals thoroughly.
+Apart from DSA, make sure you're comfortable with:
+• Object-Oriented Programming
+• DBMS
+• Operating Systems
+• Computer Networks
+• Basic System Design
+These subjects were discussed extensively during my interviews.
+
+Final Thoughts
+Overall, the interview experience was a great learning opportunity.
+The interviewers were friendly and mostly tried to understand how I think and approach problems, rather than expecting perfect answers to every question.
+My advice would be to stay calm, communicate your thought process clearly, and never hesitate to attempt a question even if you don't know the complete solution.
+All the very best to everyone preparing for placements!
+
+Regards,
+Aakash Ranjan

@@ -1,0 +1,9 @@
+EPAM Systems – Brief Overview and Personal Experience
+
+EPAM Systems is a service-based software company. In many campus placements, it typically requires a minimum CGPA of around 7.0 (this may vary by campus and hiring drive). At first, the company may seem very attractive because of its reputation and opportunities.
+
+However, I want to share my personal experience. After joining as a Junior Software Engineer through campus recruitment, you are not immediately assigned to a project team. Instead, you may be allocated to different technology stacks such as Java, .NET, or others based on business requirements.
+
+Even after clearing all the interview rounds, the learning continues during the internship. In my experience, the training was very demanding, and I felt that trainees were not always treated with enough respect. During the internship, there were two major interviews, each conducted about two and a half months apart. After that, there was a DSA test every month. I also felt that some Subject Matter Experts (SMEs) treated trainees very strictly and without much respect.
+
+This reflects my personal experience and may not represent everyone’s experience at EPAM. After receiving a full-time offer, you must also clear client interviews before being assigned to a client project.

@@ -1,0 +1,38 @@
+BlackRock Interview EXPERIENCE 
+Hi, I am Satya Prakash Jena (IT – 2026). Here is my Interview Experience of BlackRock (On–Campus): 
+• Role: Software Engineering Intern (6M + PPO) 
+• Location: Mumbai, Gurgaon, or Bangalore 
+• Eligibility: All BTech branches & CPI >= 7.0 
+
+Online Assessment 
+The OA consisted of multiple sections like Quantitative & Qualitative Aptitude, CS Fundamentals, SQL, Data Structures & Algorithms. Each of the section had respective time limits to solve the questions (Mostly around 15–20 mins for 15–25 questions). All the sections consisted of Multiple–Choice Questions only. 
+
+1. Aptitude section consisted of various Pie – Chart / Bar – Graphs based questions. 
+2. Software Aptitude Section consisted of problems involving flowcharts of algorithms and you have to either complete the missing parts of flowcharts (For example : "Which of the following statements/ commands would come in the box 5".) or understand the complete flowchart and answer different questions based on the algorithms depicted. 
+3. Data Structures based MCQ Sections consisted questions mostly belonging to Trees and Graphs. Most questions dealt with structure of the trees after performing some operations. There would be various types of algorithms and you have to make correct final structure of the tree/graph according to them (Vice–Versa also, like algorithm given, find mistake / correct algo to get this tree structure). In-depth understanding of addition/deletion of nodes in Min-Heap, Max-Heap and other standard algorithms like DFS and BFS on trees/graphs is required. You must know in–depth working of AVL Trees also. 5–6 questions were of AVL Trees. 
+4. SQL section consisted of two types of questions. One was to choose correct SQL query and the other was to find correct output. There were also basic DBMS questions based on Normalization, Transactions. Practicing SQL Question on DataLemur would be sufficient. 
+
+Technical Interview Round 1 
+Around 28 students were shortlisted for this round. Apart from this, 12 students were under waitlisted category. Some of the waitlisted candidates were called for Interviews later. 
+
+Firstly, there were 2 Interviewers. They introduced themselves and asked me for an introduction. I mentioned by academic achievements, coding performances on various competitive platforms, participation in hackathons. Then, I was asked about what tech stacks I knew and on what tech your projects are based upon. I had built a Decentralised Application built on top of Blockchain. I explained complete workflow of my project. He asked some counter questions like Why did you choose Blockchain field when other teammates were going for full-stack / AI–ML. Then he gave me 5–6 situational questions like “You and your team-mate have mastery over different tech stacks. The manager gives a task and this can be implemented by both of you in different ways focusing on respective known tech stacks. Whose idea would you like to follow?” or “Suppose you are assigned 10 tasks. How would you approach completing them in a time constraint?” or “Why do you want to join BlackRock?” 
+
+Then, second interviewer started having conversation with me. First of all, he asked “How much would you rate yourself in DSA out of 5?” I answered 4/5. Then, he asked basic questions about sorting and searching. Like “Explain bubble sort”, “Which is a better algorithm Bubble Sort or Binary Search?”, “Explain difference between stack and heap. Also give some real world examples”, “Differentiate between pointer and iterator in C++ ?”. I was not asked to code any specific DSA question but some of my friends were asked to code questions based on Group Anagrams, BSTs, basic buy–sell stocks DP. 
+
+Then, he shifted to CS Fundamentals. I was asked to explain Four pillars of OOPS in detail (what are they and how would you implement them). I mentioned how I would implement abstraction using abstract classes and interfaces. So he started asking about differences between interface and abstract classes. He asked “If you want to search a data on a large database, what would be the best algorithm and how would you approach?” I started with some basic methods and then shifted towards Indexing on Databases and types of indexing and what algorithms I can use, like Binary Search. He then shifted to Operating Systems and asked about Deadlocks (What are they, how would you react if they occur), Memory Management techniques and problems involved in them. 
+
+At last, he ended with a system design based question “Give me a brief idea about how would you implement an Elevator system.” He also asked if I am currently working on any AI based projects. Then he asked about basic AI, ML and deep learning definitions and differences, some examples of models and how they work like ChatGPT is based on a neural network architecture. 
+
+The interview lasted around 45–60 mins. 
+
+Technical Interview Round 2 
+This time there was only one interviewer. He introduced himself and asked for my introduction. He also asked me to explain the projects I worked upon. I focused on two projects: QnAverse (Decentralised App - a personal project) and Jadoo (a hackathon based team project). He then asked me to give detailed workflow of the blockchain based project (if I had to explain a non technical person) and then detailed architecture of same project (if I had to explain to a tech-enthusiast: what I used to implement what and how frontend connected to smart contracts deployed on blockchain and every single detail that is important, etc).He asked if my app has any real users and how would you scale your project and what improvements you expect to implement . Again I was asked some behavioural and situational questions like “What did you learn working as a team?”, “What were the other problem statements in CodeUtsava 7.0 and why did you select this one only?”, “Suppose there is a clash while working as a team, how would you handle such situation?”, “What is your dream company?”, “What are your goals in future?”, “Have you ever received any development feedback from any of the professor?”, “What challenges you faced during development journey and how did you handle them?”. 
+In my resume, there was only one team project mentioned which we developed in 2023. So he asked “Why there is only one team project and that also 2 years earlier?”. 
+This time, the interview lasted around 30–40 mins. 
+
+Some Tips that might help : 
+1. Do not put things on Resume that you don’t know. They ask various questions based on Resume only. For each tech stack mentioned, they ask questions. For example: One of my project was based upon Cohere AI APIs, they started asking about APIs. 
+2. Both the interviews were a mixture of Technical + HR based questions. Prepare for such situation based questions. 
+3. Detailed understanding of the projects is recommended. 
+4. There were many counter questions to the answers you provide. So, be true while answering and what not to say is important. 
+5. Prepare a good introduction and also be ready with some questions to ask the interviewer at the end.

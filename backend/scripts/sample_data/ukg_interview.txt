@@ -1,0 +1,87 @@
+UKG INTERVIEW EXPERIENCE
+Software Developer Intern (6-month Internship + (PBO) PPO)
+
+1. Online Assessment (OA) (90 mins) 
+The OA round had 20 questions (19 MCQs + 1 coding problem). 
+
+MCQs: Focused on CS fundamentals, Data structures & algorithms (hashing) and time complexities of certain sorting algorithms. It also included questions such as predicting the output of a given code snippet.
+
+Coding Problem: It was based on the divide and conquer approach and was of medium difficulty.
+
+The OA shortlists were declared after about 15 days, right after the Pre-Placement Talk (PPT). The interviews began soon after, starting at 9:30 AM and continuing till 7 PM.
+
+2. Technical Round 1
+Duration: Around 45-50 mins
+It began with a brief self-introduction, followed by a question to write an SQL query that returns the name of the employee with the fifth-highest salary from the employee table.
+
+DSA: -Write the code for sliding window algo and explain how/where it is used
+ -Then I was given one input and was asked to write a code to check valid parenthesis.
+
+CS fundamentals: There were a lot of questions from OS, DBMS and some from system design (I can’t recall all the questions right now but here are some)
+o What is Normalisation and explain its types
+o CAP theorem, SOLID properties
+o Explain ACID properties
+o Explain Round Robin Algorithm and why is it used (the interviewer tried to check my understanding with some counter questions but I stayed confident with my answer)
+o Preemptive scheduling and which CPU scheduling algorithms are preemptive in nature.
+
+From projects: After explaining my projects I was asked a few questions on JavaScript and React:
+o Some project specific questions like how did you implement encryption here
+o Difference between Let and Var
+o What are events in JavaScript, give examples
+o What are hooks in React.
+
+Then they asked if I had any questions for them and concluded.
+
+3. Technical Round 2
+Duration: Around 45 mins
+DSA: 
+o Given a paragraph as input. Write the code to extract and list all the words that are which read same from both sides (palindrome).
+o Write a program to check if two given words are anagrams of each other, I was asked multiple approaches for this.
+
+Puzzle: How many times the hour & minute hands of a clock make a straight line i) in a day ii) in 6 hours
+The other question was the two watches cost price problem
+
+Project: in depth discussion of my projects, explain the whole working and what tech stack is used, why did you decide to do this specific project
+Explain the backend part and I was asked why I chose Express and Node.js for the backend and how they work in my project
+What are the 3-5 ways to make it better, what all features you can add to it if I want xyz things
+
+General Questions: I was asked why do I want to go in software as I am an ECE student – why did I choose ECE?
+Where do you see yourself in 5 years.
+
+Conceptual: Then he asked a few of questions related to AI one being explain what is AI (explain it like you will explain to your mother)
+In your opinion AI is good or bad - How do you use it and a few follow up questions on this.
+
+4. Managerial Round
+How am I feeling today.
+How I thought I had performed in the interviews so far.
+There was a discussion on my Project and a few questions:
+o Explain about your projects- I was asked about API keys, their encryption, and how paid usage models work)
+o Motivation behind my project 
+o Problems solved by the project
+
+Behavioral Questions:
+Why did I choose engineering?
+Why do you want to go into software despite being from electronics
+Are you sure you don’t want to pursue electronics, considering that the industry is booming, with several new developments, opportunities, and a promising future?
+Family background, why job despite having a business background.
+What would you do if you had multiple important tasks scheduled under a tight deadline.
+
+5. HR Round
+Started with my brief intro then he asked Questions on details of the Pre placement talk:
+o Name 5 of our customers
+o What are our Products
+o What values does UKG stand for?
+Whether I would be willing to relocate to any of their office locations (always say YES)
+Who my idol is and what 5 qualities I would take from them.
+What 5 things I would like to improve about myself.
+There was a discussion about my hobbies and what I plan to do next.
+Then he asked if I had any questions for him. I asked what the most interesting or challenging problem he had solved at UKG was. He proudly shared an example of a challenge he had solved within a short span of time.
+
+Then the interviews were concluded and everyone was supposed to wait in the PPT hall.
+
+Key takeaways: 
+- Know every word written in your resume. Be prepared to explain all projects, technical terms, and tools listed.
+- Thoroughly prepare your projects, know how each and everything is being implemented
+- Revise core concepts like OS, DBMS, and JavaScript thoroughly.
+- Practice puzzles + prepare general HR questions
+- Learn about the company, its values, and why you want to work there.

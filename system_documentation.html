@@ -1,0 +1,108 @@
+<html><head><style>body { font-family: sans-serif; line-height: 1.6; margin: 40px; } h1, h2 { color: #333; } code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }</style></head><body><h1>AI Interview Prep Platform - Technical Implementation &amp; Architecture Guide</h1>
+
+<h2>1. System Overview</h2>
+
+<p>The AI Interview Prep Platform is a full-stack application designed to help candidates prepare for technical and behavioral interviews. It leverages large language models (LLMs) to generate customized study plans and conduct interactive, voice-enabled mock interviews.</p>
+
+<p><strong>High-Level Architecture:</strong>
+- <strong>Frontend:</strong> A modern React application built with Vite and Tailwind CSS. It provides a polished, glassmorphism-inspired UI for user interaction.
+- <strong>Backend:</strong> A robust FastAPI server written in Python. It handles API requests, orchestrates AI agents using LangChain, and manages context retrieval.
+- <strong>Vector Database:</strong> Qdrant is used for Retrieval-Augmented Generation (RAG). It stores embedded chunks of real interview experiences (e.g., LeetCode discussion scrapes) so the AI can reference realistic interview questions.
+- <strong>AI Inference Engine:</strong> NVIDIA NIM (via <code>langchain_nvidia_ai_endpoints</code>) is used to run state-of-the-art open-weights models (like Llama 3.1 and DeepSeek) with incredibly low latency.</p>
+
+<hr />
+
+<h2>2. AI Models &amp; Automatic Fallback Mechanism</h2>
+
+<p>One of the most critical aspects of the backend is the robust handling of LLM inference and API rate limits. </p>
+
+<p>The backend relies on the <strong>NVIDIA Developer API</strong>, which enforces strict rate limits on free-tier usage (e.g., 50 requests max for certain models). To ensure the platform never breaks or returns <code>503 Service Unavailable</code> errors during a live mock interview, an <strong>Automatic Model Fallback System</strong> was implemented.</p>
+
+<p><strong>How the Fallback Works:</strong>
+The backend maintains a cascading list of highly capable models:
+1. <code>meta/llama-3.1-8b-instruct</code> (Fast, high rate limits)
+2. <code>google/gemma-2b</code> (Extremely lightweight)
+3. <code>deepseek-ai/deepseek-v4-flash</code> (Advanced reasoning)
+4. <code>meta/llama-3.1-70b-instruct</code> (Massive context, slower generation)</p>
+
+<p>When a user requests a study plan or submits a chat message, the backend attempts to use the first model. If the NVIDIA API returns a <code>ResourceExhausted</code> (Rate Limit) or <code>Timeout</code> error, the backend instantly catches the exception and flawlessly retries the exact same prompt with the next model in the list. This ensures 100% uptime without the user ever noticing a failure.</p>
+
+<hr />
+
+<h2>3. Frontend Architecture</h2>
+
+<p>The frontend is a Single Page Application (SPA) built for high performance and premium aesthetics. </p>
+
+<p><strong>Key Technologies:</strong>
+- <strong>React 18 &amp; Vite:</strong> For fast hot-reloading and optimized production builds.
+- <strong>Tailwind CSS &amp; clsx:</strong> Utility-first styling for complex, responsive, and dynamic UI elements (like the glassmorphism effects).
+- <strong>Lucide React:</strong> For sleek, scalable vector icons.
+- <strong>Web Speech API (Text-to-Speech):</strong> A native browser integration that allows the AI interviewer to "speak" its dialogue out loud. The system intelligently strips out markdown and internal <code>&lt;think&gt;</code> blocks before speaking, providing a natural voice experience.</p>
+
+<hr />
+
+<h2>4. Backend Architecture</h2>
+
+<p>The backend is completely decoupled from the frontend, communicating exclusively via RESTful JSON APIs.</p>
+
+<p><strong>Key Technologies:</strong>
+- <strong>FastAPI:</strong> A high-performance Python web framework for building asynchronous APIs.
+- <strong>LangChain:</strong> An orchestration framework used to build complex prompt chains and manage the flow of data between the user, the vector database, and the LLM.
+- <strong>Qdrant:</strong> A containerized vector similarity search engine running via Docker Compose.
+- <strong>Sentence Transformers:</strong> Used locally via <code>HuggingFaceEmbeddings</code> (specifically <code>all-MiniLM-L6-v2</code>) to turn text into vector embeddings without relying on paid external APIs.</p>
+
+<hr />
+
+<h2>5. Detailed File Structure &amp; Explanation</h2>
+
+<p>Below is an exhaustive breakdown of every critical file in the project and its exact purpose.</p>
+
+<h3>5.1 Root Directory (<code>/ai-interview-prep</code>)</h3>
+
+<ul>
+<li><code>docker-compose.yml</code>: The orchestration file for the backend. It spins up three isolated Docker containers: the FastAPI backend server, the Qdrant vector database, and a PostgreSQL database (reserved for future user data storage).</li>
+</ul>
+
+<h3>5.2 Frontend Directory (<code>/frontend</code>)</h3>
+
+<ul>
+<li><code>package.json</code> &amp; <code>vite.config.ts</code>: Configuration files defining npm dependencies, build scripts, and the Vite bundler settings.</li>
+<li><code>index.html</code>: The root HTML file that mounts the React application.</li>
+<li><code>src/main.tsx</code>: The entry point for the React application. It wraps the app in React Router for navigation.</li>
+<li><code>src/index.css</code>: The global stylesheet containing Tailwind directives and custom CSS variables for the glassmorphism theme and dark mode colors.</li>
+<li><code>src/App.tsx</code>: The main layout component. It defines the navigation sidebar and the React Router <code>&lt;Routes&gt;</code> configuration.</li>
+<li><code>src/pages/Dashboard.tsx</code>: The landing page UI showing mock metrics and quick action buttons.</li>
+<li><code>src/pages/CompanyPrep.tsx</code>: The UI for generating customized 14-day study plans. It collects the user's target company, role, and timeline, then sends a POST request to the backend <code>/study-plan</code> endpoint.</li>
+<li><code>src/pages/MockInterview.tsx</code>: The interactive interview interface. It features simulated camera/microphone feeds, a live chat transcript, and the integrated Text-to-Speech engine. It communicates with the backend <code>/chat</code> endpoint using the <code>[MOCK INTERVIEW MODE]</code> prefix to trigger the strict interviewer AI persona.</li>
+</ul>
+
+<h3>5.3 Backend Directory (<code>/backend</code>)</h3>
+
+<ul>
+<li><code>requirements.txt</code>: Defines all Python dependencies (FastAPI, LangChain, Uvicorn, Qdrant Client, etc.). </li>
+<li><code>Dockerfile</code>: Instructions for building the Python backend image. It installs the requirements and copies the application code into the container.</li>
+<li><code>main.py</code>: The entry point for the FastAPI application. It configures CORS middleware (allowing the frontend to communicate with it) and mounts the API routers.</li>
+</ul>
+
+<h4>5.3.1 Backend Application Code (<code>/backend/app</code>)</h4>
+
+<ul>
+<li><code>core/config.py</code>: Manages environment variables and configuration settings using Pydantic (e.g., loading the <code>NVIDIA_API_KEY</code>).</li>
+<li><code>api/endpoints/chat.py</code>: The API router defining the REST endpoints (<code>POST /api/v1/ai/chat</code> and <code>POST /api/v1/ai/study-plan</code>). It processes incoming requests, strips special prefixes (like <code>[MOCK INTERVIEW MODE]</code>), and routes them to the appropriate LangChain agents.</li>
+<li><code>ai/retriever.py</code>: Connects to the Qdrant vector database. It initializes the <code>HuggingFaceEmbeddings</code> model and provides a function (<code>get_retriever</code>) to fetch contextually relevant interview experiences based on the user's query and metadata filters (company/role).</li>
+<li><code>ai/agents/interview_agent.py</code>: The core logic for the Mock Interview chat. It contains:
+<ul>
+<li>The <code>FALLBACK_MODELS</code> list and the automatic retry loop.</li>
+<li>The <code>system_prompt</code> (for general mentoring).</li>
+<li>The <code>mock_interviewer_prompt</code> (which explicitly instructs the AI to ask only one question at a time, wait for a response, and evaluate the candidate).</li>
+<li>The execution logic inside a <code>ThreadPoolExecutor</code> to enforce strict timeouts and prevent the server from hanging indefinitely.</li>
+</ul></li>
+<li><code>ai/agents/study_plan_agent.py</code>: The logic for generating the 14-day study roadmap. Similar to the interview agent, it utilizes the <code>FALLBACK_MODELS</code> list, strict ThreadPool timeouts, and a specialized <code>study_plan_prompt</code> designed to output concise, highly structured Markdown.</li>
+</ul>
+
+<hr />
+
+<h2>Conclusion</h2>
+
+<p>The AI Interview Prep Platform successfully integrates modern web aesthetics with cutting-edge open-weights AI models. By implementing local vector embeddings and robust fallback mechanisms on top of the NVIDIA NIM infrastructure, the system provides a highly responsive, intelligent, and completely free alternative to expensive proprietary AI coaching services.</p>
+</body></html>

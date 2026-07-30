@@ -1,0 +1,73 @@
+Interview Experience
+D.E. Shaw
+For the Role of SDET
+by Prahlad Khairnar
+
+1. Online Assessment
+The selection process involved two separate Online Assessments (OAs) due to some technical difficulties. The top 5 performers from each assessment were shortlisted for the subsequent rounds. Both OAs included a mix of coding problems, technical multiple-choice questions, and an aptitude section.
+
+1.1. Online Assessment 1
+Problem 1.1. You are given a string s consisting of uppercase English letters. You are allowed to insert at most one uppercase English letter at any position (including the beginning or end) of the string. Return the maximum number of occurrences of AMZ that can be formed in the resulting string after at most one insertion.
+• Constraints: The length of the string, n ≤ 10^5.
+• Reference: Coincidentally, this problem was identical to one featured in a LeetCode weekly contest that took place later in the same week as the OA: Maximum Number of Subsequences After One Inserting.
+
+Problem 1.2. Given an array A of length n. If you activate the i-th element (where Ai = x), you can choose to either cover indices [i − x + 1, i] or [i, i + x − 1]. Find the minimum number of elements that need to be activated to cover the entire array (from index 1 to n), or report that it is impossible.
+• Constraints: n ≤ 10^3, Ai ≤ n.
+
+1.2. Online Assessment 2
+Problem 1.3. You are given n items, each with a weight between 1.01 kg and 2.9 kg (inclusive). You have an unlimited number of boxes, each with a capacity of up to 3.00 kg. Your task is to pack all items into the minimum number of boxes possible, ensuring that the total weight in any single box does not exceed 3.00 kg.
+• Constraints: 1 ≤ n ≤ 1000. Each item’s weight is a real number in [1.01, 2.9] with at most two decimal places.
+
+Problem 1.4. You are given an array of n positive integers a1, a2, . . . , an. Your task is to find the number of arrays b1, b2, . . . , bn that satisfy the following conditions:
+1. 1 ≤ bi ≤ ai for every i ∈ {1, 2, . . . , n}.
+2. bi != bi+1 for every i ∈ {1, 2, . . . , n − 1}.
+Since the number of valid arrays can be very large, output the result modulo 998244353.
+• Constraints: 1 ≤ n ≤ 2 · 10^5, 1 ≤ ai ≤ 10^9.
+• Reference: This problem is identical to Codeforces Problem 1591F.
+
+Personal Performance
+I solved Problem 1.1 easily and partially solved 1.2, but a submission issue prevented it from being counted. Problem 2.1 was straightforward. However, Problem 2.2 was quite challenging, and I was unable to pass any hidden test cases.
+
+2. Technical Round 1
+The round began with a friendly introduction about myself and my hobbies. The interviewers were very welcoming. We then did a deep dive into my resume, followed by a detailed discussion of my projects, touching upon technologies like MongoDB, JWT, and general database concepts.
+
+Problem 2.1. Parse a string composed of lowercase letters ‘a-z‘, digits ‘0-9‘, and brackets ‘[‘ and ‘]‘. A number preceding a bracket indicates the repetition count for the content inside the bracket. For example, ‘ab2[bc2[c]]‘ should be parsed to ‘abbcccbccc‘. I was asked to provide pseudocode for my solution.
+
+Problem 2.2. Given the size of an array n (n ≤ 10^5) and a number m (m ≤ 9), generate the lexicographically largest string of length n using digits ‘1‘ through ‘m‘ that satisfies the following conditions:
+• There is exactly one ‘1‘.
+• All instances of any digit k ∈ {2, . . . , m} must be placed at least k positions apart from each other.
+
+Problem 2.3. Search for a given number in a large, sorted array whose size is unknown.
+
+Problem 2.4. Given an array of known size and two available threads/processors, how can you improve the efficiency of a binary search?
+
+Problem 2.5. Given an array of size n where one element is guaranteed to appear more than n/2 times, find that element in linear time and constant space. (Fumbled this one. The solution is the Boyer-Moore Voting Algorithm.)
+
+Problem 2.6. Given a tree and two nodes A and B, find their Least Common Ancestor (LCA).
+
+Problem 2.7. A classic knapsack problem. Given a fixed budget, costs of various stocks, and their expected returns, maximize the total return.
+Follow-up: Each stock also has a risk percentage associated with it. How does this factor into your solution?
+
+This round lasted over an hour, but the time flew by due to the engaging problems.
+
+3. Technical Round 2
+This round also started with a brief introduction. An interesting opening question was whether I had ever had my solution hacked on Codeforces, or if I had ever hacked anyone else’s solution, which was relevant given the opening was for an SDET role.
+
+Problem 3.1. You are given a stream of boxes with sizes s1, s2, . . . , sn. Your task is to form the maximum number of groups of three (triplets). A triplet is valid if for its sizes {sa, sb, sc}, the following holds:
+max(sa, sb, sc) − min(sa, sb, sc) ≤ T
+where T is a given threshold.
+Follow-up: How would your approach change if you needed to form groups of size m? (My solution to the follow-up was correct but I could not provide the most optimal approach for it.)
+
+Problem 3.2. Given two integers, x and y, find the smallest non-negative integer P that allows you to make them equal. The process is as follows: for each number k from P down to 1, you must add k to either x or y. Your goal is to find the minimum starting P that makes it possible for x and y to be equal at the end.
+
+Problem 3.3. You are given n bands, each defined by an interval [li, ri] and a cost ci. For any subset of bands S you choose to purchase, a band Bi ∈ S becomes free if the set S also contains another band Bj with rj < li and a band Bk with lk > ri.
+For each prefix of the input array (from k = 1 to n), find a set of bands that first maximizes the total covered length, and second, minimizes the total cost of all non-free bands. I was asked to figure out some edge case my approach wasn’t covering; I managed to find it.
+
+Project and Scenario-Based Questions
+The interview then moved beyond algorithmic problems into a comprehensive discussion of my practical experience. This began with a deep dive into my projects, where we discussed everything from the high-level architecture to specific implementation details like my choice of LLM. The focus then shifted to behavioral questions, where I explained my motivation for pursuing an SDET role and recounted a memorable debugging experience. To conclude, the interviewers presented several real-world scenario problems:
+
+1. Concurrent Booking: Two users try to book the exact same movie seat simultaneously. Both are seemingly successful, which should be impossible. How do you prevent this? My suggested solution involved using a message queue to serialize the booking requests and prevent race conditions.
+2. Social Media Feed Latency: Your social media feed takes a long time to load, but new posts from others appear instantly. What could be the cause? This led to a discussion on database normalization, Content Delivery Networks (CDNs), master-slave database architecture, and load balancing.
+3. Failed Payment on App: You order food from an app, proceed to the payment screen, and make the payment, only for it to fail with a message that the restaurant is now closed. What might have happened? This led to a small discussion on the trade-offs between strong consistency and eventual consistency in distributed systems.
+
+This concluded the second technical round. There was no subsequent HR round.

@@ -1,0 +1,60 @@
+Optum UHG Interview Experience
+Technology Development Program Associate (FTE – 2026)
+
+• CTC: 19.21 LPA (Base 18 LPA)
+• Eligible Branches: CSE, IT, ECE, EE, MCA
+• Eligibility Criteria:
+CPI ≥ 8.0 (Mentioned 7.0 but shortlisted only 8 and above for OA)
+No active backlog
+• Location: Gurugram / Hyderabad / Bengaluru / Chennai
+
+Round 1 – Online Assessment (1 hr) (20-09-2025)
+It was conducted on CodeSignal platform in CCC lab with strict proctoring. It was not a typical OA like DSA problems or Aptitude. It was an AI Assisted Coding challenge. There was a Full stack project in which some modifications were to be done. There were 2-3 options for selecting the tech stack of project like Node + Mongo + React and Django, etc. I was comfortable with MERN so I chose that. The project was a Blogging Website, the problem statement contained 4 tasks each with some score according to its difficulty which needs to be completed. There was a prompt-based AI assistant also for better explanation of problem statement, fixing errors or bugs. 
+
+The project structure was very similar to typical full stack websites containing Backend and Frontend folders containing all the necessary files. One of the tasks were to add a visitors count for each blog making the necessary changes in DB Schema, Backend and Frontend. I completed 3 out of 4 tasks.
+
+Tips: 
+• Make at least 1 Full Stack Project solving some real-world problem.
+• Don’t panic with the problem statement and read the tasks carefully.
+• Understand the project structure and which files need to be modified for which task.
+
+Around 40 candidates were shortlisted for interviews.
+
+Round 2 – HR Interview (15 min) (23-09-2025)
+Interview was conducted in MS teams online in CCC panel. The interviewer was very friendly. She started with her introduction and then she asked me to introduce myself and then asked some questions like:
+- Why do you want to join Optum?
+- How do you manage your time doing projects and college schedule?
+- Experience of working in groups?
+
+At the end, I was asked if I had any questions. I asked about:
+- Mentorship opportunities at Optum.
+- The interviewer’s experience working at Optum.
+
+Tips for HR round:
+• Go through the JD and have complete information about the company.
+• Don’t ask technical questions like Tech stack, AI, etc. here.
+• Be confident, have a smile, don’t fumble and prepare your intro and common HR questions beforehand.
+
+Only 5-6 candidates were rejected in this round.
+
+Round 3 – Technical Interview (1 hr) (25-09-2025)
+My interviewer was Project Manager at Optum so it was more like a managerial round. I started with my introduction. He then asked me to pick a project from my resume and explain it from scratch. I explained my project’s Problem statement, Tech Stack, DB structure, along with the hosted website. He also asked why these tech stacks are used and from where did I learn these. 
+
+He then gave me some situations, one of them was if a payment done by user is failed then how would you respond to the user’s concern. How you deal with bugs and errors while making projects.
+He also asked very basic ML portion like explain difference between AI and ML to a non-tech person.
+He next asked me to design a traffic light controller just to know how I think and approach to problem. It was not a DSA problem. I explained him the timer based approach using some variables and loops.
+
+At last, he asked if I have questions, I asked about AI security concerns in healthcare and how is it resolved in Optum.
+The results were declared very next day and 12 candidates were selected.
+
+Tips:
+• Do not depend completely on interview experiences as each panel has different set of questions, some of them asked AI/ML in depth. Be prepared for everything.
+• Have atleast one hosted project to show live demo and prepare flowchart of DB schema.
+• Be confident about what you have mentioned in your resume.
+• Understand what is being asked and take some time to think and then answer.
+• Be sure you have stable internet, there are a lot of connection issues in CCC panels.
+
+All the best for your placements!
+
+Regards,
+Kalyanam Pavan Kumar

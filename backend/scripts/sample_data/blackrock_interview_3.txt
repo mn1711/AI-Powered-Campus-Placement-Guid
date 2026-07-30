@@ -1,0 +1,19 @@
+BlackRock Interview Experience
+
+The process mainly had two technical interview rounds, and both rounds were a mix of technical concepts, basic problem-solving, and behavioral questions.
+
+In the first round, the interview started with basic behavioral and situation-based questions. The interviewer asked things like how I prioritize my daily tasks, how I handle multiple tasks at the same time, and what approach I follow when deadlines are close. They wanted to understand my thought process, communication, and decision-making style.
+
+After that, there were some basic system design and low-level design questions. One of the questions was around elevator system design. They asked what strategy or algorithm I would follow while designing an elevator system, how elevators should be assigned to requests, and what factors should be considered. The focus was not on very deep system design, but more on whether I could think logically about the problem.
+
+They also asked some core CS fundamentals, mainly from Operating Systems. Questions included what a race condition is, how it can occur, and what the four necessary conditions for deadlock are. Along with this, they also asked about SOLID principles and design patterns, so having basic clarity on object-oriented design was important. There were no major DSA questions in the first round.
+
+The second round had a little more focus on DSA. They asked one or two basic DSA problems, not extremely difficult, but you should be comfortable with standard problem-solving and explaining your approach clearly. They also asked theory-based questions from data structures, such as what an AVL tree is, what a Red-Black Tree is, and how these balanced trees help in maintaining efficient operations.
+
+Behavioral questions were again part of the second round. They asked about teamwork, how I have worked in a team, and what I would do if there is a mismatch in thinking or opinion within the team. For these questions, it is better to answer using real examples from projects, internships, hackathons, or college teamwork.
+
+Overall, the interview was not only about solving coding questions. They were also checking fundamentals, problem-solving approach, communication, and whether I could think practically in team-based situations. My suggestion would be to prepare DSA basics, OS concepts, OOPs, SOLID principles, basic LLD/system design, and also practice behavioral questions with real examples from your own experience.
+
+Focus on explaining your thought process clearly rather than just giving the final answer. That matters a lot in interviews like this.
+
+NOTE :- If your home address lies in the north region then I would say not to consider Blackrock as previously they hired for two locations : Mumbai and Gurgaon. There is a requirement in Mumbai so they converted most of them , while Gurgaon office has no such requirements for freshers and conversion is pretty low.

@@ -1,0 +1,64 @@
+SIXT R&D; Interview Experience (6 Month Internship + FTE)
+
+1. Online Assessment
+The online assessment consisted of:
+- 14 MCQs
+- 4–5 Aptitude-based questions.
+- Remaining technical questions, mostly on Java OOPs concepts.
+- 2 Coding Problems
+
+Coding Problem A: Tree & Candy Collection
+Problem: Given a tree where each node has an associated cost, you start with money K. Choose any starting node and move upwards to the root, collecting one candy per visited node. You stop if you run out of money. Select the starting node optimally to maximize candies collected.
+Constraints: O(N log N) expected
+Approach: Binary Lifting or Tree Flattening + Binary Search
+
+Coding Problem B: Game Theory – Points Movement
+Problem: There are n points (x, y) with 0 ≤ X, Y ≤ 200. Two players A and B alternately move any one point to (x - p, y) or (x, y - p) where p is a prime number and coordinates remain positive. A player who cannot move loses.
+Constraints: 1 ≤ n ≤ 5 × 10^5
+Concepts: Sprague–Grundy Theorem, Nim Game
+I was able to solve both questions.
+
+2. Technical Round 1
+Interviewer Profile: 20 years of experience, 8 years at SIXT.
+Began with a resume discussion — why B.Tech, why Computer Science (~10 mins).
+Main Coding Problem: Variant of Number of Distinct Islands problem with a twist — horizontal and vertical mirrors of an island are considered the same.
+- Used BFS/DFS for island detection.
+- Discussed brute force first, then an optimised canonical form approach.
+- Didn’t fully code the optimal solution, but clearly explained the thought process.
+This problem lasted ~1 hour and was one of the toughest in R1.
+Takeaway: Clear communication of approach matters as much as the final code.
+
+3. Technical Round 2
+Q1: Two Sum Problem – solved in O(n) using a hash map.
+Q2: Minimum Range Covering K Lists – variant of smallest range problem.
+- Used a min-heap + tracking current max to maintain smallest possible range.
+- Solved successfully.
+Concept Question: Explained ACID properties in databases.
+Candidate Question: Asked the interviewer about AI’s negative impact on deep learning and how to use AI effectively — led to an interesting discussion.
+
+4. Technical Round 3
+Started with a discussion about my Optum UHG internship.
+Concepts:
+- Struct vs Class differences.
+- Expected output from small code snippets.
+Scenario Question: Driver wants to see the available rides in the app. What should be done while fetching data from the database?
+- Proposed sorting by distance + batching/pagination for smooth UX.
+Coding Questions:
+1. Next Permutation – implemented standard algorithm and dry-ran on examples.
+2. K-th Number in [L, R] with ≤5 Consecutive 1s in Binary –
+Expected: Brute force
+My Solution: Digit DP + Binary Search.
+
+5. HR Round
+Focus Areas:
+- Technology preferences.
+- Short explanation of a project.
+- Family background, postgraduation plans.
+Company-related Question: Almost always ask something about SIXT → Attend the Pre-Placement Talk carefully.
+Tip: This round tests cultural fit and communication skills more than technical knowledge.
+
+Final Tips for Candidates
+- Know your basics well — OOPs, DBMS, common DSA patterns.
+- Communicate clearly — even partial optimal solutions can work if your thought process is strong.
+- Prepare for mirrors/twists on standard problems.
+- Be ready with company knowledge for HR.

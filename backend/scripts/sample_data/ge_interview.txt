@@ -1,0 +1,40 @@
+Round 1: Online Assessment 
+This round consists of general aptitude, technical and coding questions 
+The 2 coding questions were on easy to medium level :- 
+1) The first question was based on prefix sum approach 
+2) The 2nd question is to find no.of unique Hamiliton cycles in a graph 
+Each section has specific time allotted . 
+I have solved all aptitude ,technical and coding questions in the give time 
+
+Round 2:Techincal Interview (30-40min) 
+In this round i was asked a lot of questions based on cs fundamentals(oops,os,dbms,cn) and also give some code and asked to predict the output ,and a brief about the projects mentioned in resume 
+The coding question asked to me was 
+https://leetcode.com/problems/minimum-window-substring/description/ 
+I was asked to tell the approach and sked to write the pseudo code and told to dry run based on the given input along with the complexities( TIP:- start with brute force approach even if you know the optimal solution) 
+
+Round 3: HR Round (15min) 
+This was a very casual discussion about my strengths ,weakness, about the company 
+After 3-4 days results are announced 
+
+TIPS : 
+Be clam and don't take stress throughout the process 
+Be consistent and develop your coding skills along with communication skills 
+Don't neglect and never ever take cs fundamentals for granted, one should have a proper grip on them 
+
+PROCESS TO PPO 
+Round 1- 
+Your interviews are scheduled based on your mentior/manager reviews . 
+Round 2- 
+This was a technical round held in office only. 
+I was asked questions on cs fundamentals in depth, about my project and coding questions on linked list . 
+I was also asked situation based questions. 
+NOTE:- this is an elimination round . 
+
+Round-2:- 
+This was manager round held in office. 
+I was asked some questions like what you have worked on, what's your motive to work, how do you manage stress ,where do you see yourself in next 5 years and later she explained me about the 6 month internship and eedp program and ask how well are u motivated and manage to work. 
+
+Round-3: 
+This was an hr round . 
+Again regarding my project ,ge principals ,what are you learnings technical and soft skills and what are the three things unique I have learnt . 
+After 1 week we got the result, and got selected.

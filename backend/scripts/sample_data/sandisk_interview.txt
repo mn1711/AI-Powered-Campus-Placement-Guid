@@ -1,0 +1,56 @@
+Company - SanDisk
+Role Offered - Firmware Developer
+
+Online Assessment: It was an online MCQ exam with 40 questions to be completed in 90 minutes. 
+The test had two sections:
+1. C Programming – 20 questions 
+2. Aptitude – 20 questions
+(with no option to go back to previous questions)
+I found the C programming questions easier compared to the aptitude section, which was more time-consuming. Proper time management was important. In the end, 14 students were shortlisted for the interviews.
+
+Technical Round 1 (Duration: ~60 minutes): At the beginning, I handed over my resume, and the interviewer went through it. The interview started with a few informal questions. The interviewer noticed that I am from Visakhapatnam and asked how I would be able to adjust and survive in a new city in terms of food and culture. I answered confidently, explaining my adaptability and openness to learning new things. Then he asked me to explain my projects.
+
+Project 1: Soil Sensors in Precision Agriculture
+• Implemented electronic systems for soil sensors in precision agriculture.
+• Tools used: Arduino, Bluetooth Module (HC-05), Python (Pandas, Matplotlib).
+• Designed an embedded system to interface soil pH and conductivity sensors.
+• Enabled real-time data transmission via Bluetooth and visualized trends using Python for actionable crop management insights.
+
+Project 2 (Final Year Major Project): Gesture Recognition using sEMG Signals
+• Developing a machine learning-based gesture recognition system using surface electromyography (sEMG) signals.
+• Tools used: Arduino, Python (NumPy, Pandas, Scikit-learn, Matplotlib), and signal processing techniques.
+• Designed a single-channel sEMG acquisition system with preprocessing, feature extraction, and PCA for dimensionality reduction.
+• Implemented improved KNN and soft-margin SVM algorithms to classify five hand gestures for applications in prosthetics and human-computer interaction.
+
+He asked me who could use these projects and how they would benefit from them.
+Next, he gave me a problem:
+“Raipur has communication towers, and all the towers are connected to each other. How many cables are required to connect them?”
+I answered with the formula n(n-1)/2, and he asked me to verify it by drawing for 3 towers and then for 5 towers.
+
+Then, he moved to C programming questions. He asked me to write a program:
+Question:
+Write a C program to read an 8-digit hexadecimal number and swap its nibbles such that the first nibble becomes the last, the second nibble becomes the second last, and so on.
+Example:
+Input: 0xABCDEF12
+Output: 0x12EFCDAB (I solved this question by using right & left shift operators).
+After that, he asked about the volatile keyword in C.
+The discussion then shifted to Computer System Architecture and Microcontrollers/Microprocessors (since these subjects were listed on my resume). He asked where queues and stacks are used in RTES, questions about SRAM, DRAM, and cache memory and its replacement algorithms.
+He also asked, “What are the modules present in an SD card?” I tried drawing the modules inside a microprocessor to explain, and he guided me through this part.
+Another interesting question was: “When you click a picture in a camera, how is it stored in an SD card?”
+I explained it in terms of the Operating System, mentioning that a user cannot access hardware directly. Instead, the kernel mode is responsible for interacting with hardware. The user programs make use of system calls, which act as an interface between user mode and kernel mode, to store the image in the SD card.
+Finally, he wrapped up the interview with a few questions about my family.
+To move on to the next round, 5 students were chosen.
+
+Technical Round 2 : As I am from an ECE background, he focused on ECE subjects. He first asked me to design a clock pulse, which I implemented using a NAND gate with a feedback loop. Then, since I had mentioned signal processing techniques in one of my projects, he asked me about them, and I explained amplification, rectification, and filtering. He then questioned me further on rectification, so I explained converting AC to DC, described the different types of rectifiers—half-wave, full-wave, and bridge—and he asked me to draw the circuits. He asked about the subjects in ECE and whether I liked communication; I clearly mentioned that my interests are on the electronics side, not in communication. He also asked what an interrupt is, and I explained interrupts and their types. Later, he asked me to solve two puzzles (puzzle1, puzzle2) , followed by DSA questions ( on inserting a node in a linked list and returning the remainder without using modulo or division operators, for which I explained my approach. Towards the end, he asked about my gate plans, studying abroad, and also asked about my family. 2 students were chosen to move on to the next round.
+
+HR Round: It lasted for roughly 15-20 minutes. She went through my resume and asked about my academic scores, which she appreciated. She then inquired about my internship experience, asking how I worked there and what I learned. Later, she asked about the distance from Visakhapatnam to Bangalore and whether I had visited Bangalore before.
+
+Guidance
+1. Its not necessary to answer all the question just be confident what you answer.
+2. If u don’t know then admit it.
+3. Try to show your eagerness to learn with interest about the company.
+4. Prepare core subjects.
+
+By
+Chinnari Ramya
+Final year ECE Undergraduate-2026

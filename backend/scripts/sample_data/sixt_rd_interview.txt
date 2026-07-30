@@ -1,0 +1,38 @@
+Interview Experience Sixt R&D
+
+There were a total of four rounds of discussion : two technical, one managerial, and one HR round, each being an elimination round.
+
+OA Round :
+There were 2 Coding questions and 15 technical and aptitude questions. I was able to solve all MCQs and 1 Coding question.
+The MCQs were of moderate difficulty , the 1st coding question was "Given a rooted tree where each node has a value and I am having a budget B, I need to report the length of the longest path from node to root such that sum of values does not exceed budget" , I solved this with DFS and Binary search.
+The 2nd question was standard Game Theory that involved Sprague Grundy Theorem , I had not studied it so was unable to solve it.
+Just after 15 mins of the OA , I was called for interviews.
+
+Round - 1
+It started with my brief introduction , and the interviewer was very nice and asked me about the OA's coding questions. I said I liked the questions though the 2nd one was something I didn't expect in an OA. He said that it was very easy if you know the Theorem , I said cheekily, only if I did.
+Then he asked me to implement String to Integer conversion with negative , non digit characters. I started with my approach and then wrote the pseudocode and he was satisfied.
+
+The 2nd question was this -
+https://leetcode.com/problems/furthest-building-you-can-reach/description/.
+Initially the constraints he gave me were small so I explained the brute force approach and after he increased them , I went to the optimal solution and wrote the pseudocode for the same. He was good with the approach and implementation.
+Then he asked me about RDBMS , Normalization , Make a table of your choice and Normalise it. I answered all these questions correctly.
+Finally he said that he is good and if I have any questions for him? I asked about his role in the company and he explained about it thoroughly in 5 mins
+
+Round - 2
+The 2nd round happened the next day and it started with the explanation of one of my projects. I explained about it in 5-7 mins and then we moved for a coding question.
+The questions was kind of an LLD question "Design an elevator system for a building with n floors and m elevators" , this was something new for me but I went of with explaining my approach and the tradeoffs and then implementing it from scratch , during the explanation I would check on with the interviewer but he was completely silent , He just said, this is your problem , you can solve it however you want. Then he was good with it and moved to another question , this was a standard flood fill question , I quickly explained my approach and coded it in my IDE (I wrote the 1st question in pen and paper and at the end of it I had asked him why cant we code in our IDEs , He said he never asked me to write in pen and paper , it was entirely on me, So I chose my IDE for the 2nd question).
+He was satisfied with the approach and code and my interview was over. He asked me if I had any questions for him , I replied I had none since I had all my questions answered in the PPT and 1st round.
+
+Round - 3 :
+After 15 mins I was called for the 3rd round , This was again a DSA round , 1st questions was "Given an array of jobs with their start and end times and associated profits , I needed to maximize profit and the jobs can't overlap", I started with explaining my DP approach and did multiple dry runs, he wanted me to optimize space to O(1) but I kept telling him that this can't be done but he kept insisting , so I agreed and said I am not aware of it.
+The 2nd question was the easiest one "Given a matrix with some empty cells and some blocked cells I just needed to find out if I can reach the bottom right cell if I start from top left, Down and right movement was only allowed" , Standard DFS , I explained him the approach and he was good , No need to code it he said. With this the 3rd round was over.
+
+HR Round (Round - 4)
+After some mins again I was called for the HR round , this was the only online round for me , The HR round included a discussion over my project , How would I scale it , how would I pitch it for business , How can I sell it , Who would be my target audience and a demo of the project. Then it was about myself , my family , hobbies , and what I know about the company , I answered all these and he was very happy with me.
+
+Tips for Interviews :
+1. Be confident.
+2. For DSA questions, firstly make sure that you have understood the question properly. Do it by taking 1-2 examples and explain how you’ll get the correct answer for them.
+3. Start from brute force, then head towards the optimal approach. Also tell them time & space complexity for all the approaches.
+4. Lastly, dry run your code for any testcase and also brief them how your code will work correctly for edge cases.
+5. For technical questions, explain it using some real life examples.

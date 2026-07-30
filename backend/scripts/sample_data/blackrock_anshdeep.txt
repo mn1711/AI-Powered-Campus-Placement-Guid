@@ -1,0 +1,72 @@
+BlackRock Interview Experience [Anshdeep Shrivastav]
+
+Round 1 – Online Assessment [All MCQs]
+(350 candidates shortlisted for OA)
+The assessment had 4 sections:
+• Around 20 questions from SQL
+• 20 questions from aptitude
+• 20 questions from flowcharts/reasoning
+• 20 questions from programming (Questions on B-tree/AVL Trees, etc.)
+Result: ~ 50 candidates selected for interviews
+
+Round 2 – Technical Interview (~30-35 min approx.)
+Interviewers:
+• Interviewer 1 – 9 years experience
+• Interviewer 2 – 4 years experience (joined 10 min later)
+
+They started with my introduction. I gave a brief introduction, talked about my projects, DSA stats, etc.
+From my resume, he asked about one of my projects and told me to explain what I had worked on. I had mentioned logistic regression under one of my projects, so he went deep into it—why I chose logistic regression, what if I had selected a decision tree classifier (asked me to answer numerically/technically). He also asked about the loss function (which loss function we use and why, etc.) and a bit about gradient descent.
+After that, he asked me about CNN (also from my project) and a few questions from backend (easy ones)—status codes and rate limiting.
+Then he asked me which language I code in. I said C++.
+
+Questions asked:
+• Call by reference and call by value (he asked the question in a twisted way, but the answer was easy)
+• 4 pillars of OOPs
+Then ask me questions from DBMS:
+o NoSQL vs SQL (also asked scenario-based questions here)
+o What is indexing
+o Transactions in SQL
+
+Then moved to Data Structures:
+o "What do you know in data structures?" I told him arrays...to...graphs
+o Gave me a scenario and asked which data structure I would use (answer was stack)
+o Asked me to tell the difference between trees and graphs using examples
+o Asked me to explain how Dijkstra's algorithm works (not make me code, i just explained him algo)
+
+He mentioned "we have only 2 min left," then gave me a very easy DSA question [Group Anagrams ~ LeetCode Easy]. He didn't make me code; just told me to explain the approach.
+
+Round 3 – Technical Interview 2 (~50 min approx.)
+Interviewer: Director at BlackRock
+
+In this round (what I felt), they didn't want to deep dive into tech skills but wanted to understand how I approach a solution and how I communicate.
+I was nervous, so he calmed me down.
+Started asking about my project (somewhere in the resume, GenAI was mentioned).
+Asked me to explain what GenAI is (seemed like he wanted to test my communication skills), then asked how I would have implemented it if I had developed this before the AI era. Then randomly asked me to explain how this whole AI thing works. I told him about vector embeddings, cosine similarity, llms, encoder-decoder, etc. I somewhere mentioned tokens, so he asked me what a token is, etc. [Yapped for 10-15 mins.]
+
+Then he gave me a scenario and told me to explain how I would implement that feature. I gave one approach, then he told me to think of another approach better than this. He made me think of a 3rd approach, but I said the 2nd was the best approach available in the market (he later criticized me on this because he wanted me to keep thinking).
+
+After that, he asked me about authentication, authorization, JWT tokens, sessions, refresh tokens, etc., including a few scenario-based questions.
+(~30 min done)
+
+He started asking behavioral questions. In my resume, I had mentioned "leadership" and under POS, I had written "leading a club," so he started asking questions on that:
+• Tell me a scenario where you showed your leadership
+• Tell me a scenario where you realized you took a wrong decision and how you corrected it
+He saw "finance club mentioned" and asked why I joined the finance club. I said because I have an interest in it. He told me to explain one finance concept I recently learned. I explained ETFs to him (because BlackRock is also into ETFs “iShares” ). He was convinced with my explanation. I also explained Futures & Options to him.
+
+Asked me, "What motivates you to learn something new?" [I yapped]
+I had earlier mentioned a consulting project I worked on, so he asked me: "If given a chance, which idea/cause would you work on as a business? (Seems like he wanted to know how I think)
+
+He was convinced with all my 20-min behavioural session.
+
+[ Ending Note ]
+He was literally a very humble guy. He said, "I am sorry if you felt I haven't heard your answer properly because I was noting your remarks."
+I also acted humbly and said sorry if I unknowingly made any mistake.
+
+Then he gave me 2 suggestions:
+1. "Don't call me sir; in corporate we don't use 'sir'—call everyone by their name"
+2. Never stop thinking—you stopped after thinking of 2 approaches, but if you had thought more, a better solution might have come
+
+[Interview End]
+
+Final Result
+14 selected -> I was one of them!

@@ -1,0 +1,52 @@
+INTERVIEW EXPERIENCE
+Name :- Ankita Gupta (7th Sem , Electronics and Communication Engineering)
+Company Name : - Optum UHG
+Role :- TDP Software Engineering Associate (FTE)
+
+The whole process was of 3 rounds. The entire process was conducted over the timeframe of a week.
+
+Round 1 :- Online Assessment
+It was an hour long test conducted on Codesignal platform. The test was based on full stack development where we were provided with a full-stack application. The core task was to add specific functionalities to this existing application based on a set of requirements given in the question.
+The question was : a fully functional full-stack blogging application , built with a React frontend and an Express.js API. The task was to implement four progressive features in tiers, each building upon the last.
+The first tier was backend-focused, requiring me to add a viewCount attribute to the Article model and create a new API endpoint to increment it. Subsequent tiers involved frontend work to display this count in the UI, adding a complete 'Categories' feature with a new model and API integration, and finally, implementing a basic article recommendation system. This final tier required creating a new endpoint to recommend articles based on shared categories, tags, and view count. 
+
+Round 2 :- HR Round ( 8-10 mins )
+Around 40 students were selected for this round. This was a non-technical interview focused on behavioral questions and assessing my cultural fit with the company. 
+The interview started with the hr asking me to introduce myself. Then some of the questions I was asked were :
+• My Strengths and weaknesses
+• What do you know about Optum 
+• Why do you want to join Optum
+• Describe a time I received praise for my work from a superior, such as at my internship or from the heads of the college club.
+• How I would explain a technical concept to a non-technical person.
+• Describe a time I got stuck on a project or any task during your internship and how I overcame the challenge.
+
+Round 3 :- Tech Round ( 1 hour )
+Around 33 students were selected for this round. This round delved deeper into my technical knowledge and problem-solving abilities.
+The Interview started with my brief introduction.
+Then the interviewer asked me some questions from my resume : (40-45 mins)
+• My internship experience. 
+• I was asked about my specific role, the tasks I completed, and the tech stack I worked with during my Internship.
+• Following that, I was asked to provide a brief explanation for each of the projects listed on my resume.
+• The interviewer then selected one project and delved deeper, asking specific questions about its architecture and the technologies I used to build it.
+• The interviewer asked about the specific challenges I faced while building that particular project. And how I tackled those challenges.
+• I was then asked to rate my own proficiency in several programming languages, including C++, Python, and Java.
+• How I keep myself updated with new advancements in technology.
+• What is AI and ML ? key differences between them.
+• The interviewer then asked if I had used any AI or Machine Learning in any of my projects or during my internship.
+• Name some of the current AI tools available and discuss their latest versions.
+• Then Referring to the 'Positions of Responsibility' section on my resume, the interviewer asked about the college club I am part of and the work I did there.
+• Explain why I chose to start my career in the technical/software engineering field.
+• What I knew about the Technology Development Program (TDP) at Optum.
+
+Then the discussion shifted to Data structures and Algorithms (DSA) : (15- 20 mins)
+• Explain the key differences between several data structures.
+• I was then given 2 easy level DSA questions, one of them was Reverse a string and was required to write the code for them on a notepad.
+
+At the end of the interview, I was given the opportunity to ask questions. I asked about the interviewer’s experience working at Optum .
+
+Tips from my side : 
+• You should be really aware and confident about what you have mentioned in your resume.
+• Be calm and confident during the interviews.
+• Research about the Company and the Role beforehand.
+
+Thankyou.

@@ -1,0 +1,29 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+frontend/.env
+frontend/.env.local
+
+# Backend / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/env/
+backend/venv/
+backend/.venv/
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/.env
+
+# Database / Qdrant
+qdrant_data/
+postgres_data/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

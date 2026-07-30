@@ -1,0 +1,37 @@
+Placement Experience: Zanskar Tech Pvt. Ltd.
+Company Name Zanskar Tech Pvt. Ltd.
+
+CPI Criteria / Eligible Branches
+● CPI Cutoff: 8.0 and above
+● Eligible Branches: CS & IT
+
+OA Pattern & Questions
+● Format: Pen and paper mode.
+● Question Types: Fill-in-the-blanks and writing pseudocode (no standard multiple-choice questions).
+● Topics Covered: Operating Systems (OS), Data Structures and Algorithms (DSA), Object-Oriented Programming (OOPs), and Linux commands/internals.
+
+Interview Experience (Note: There was no HR round; the process was entirely technical.)
+● Round 1: Technical Foundation (Medium)
+○ Duration: ~60 minutes.
+○ OOPs Deep Dive: The round started with a heavy focus on OOPs, specifically virtual functions. I had to write out the code and explain the underlying mechanics line-by-line, which led to 2-3 follow-up questions ( testing knowledge of vtables/vptrs).
+○ Networking: Asked about the exact differences between TCP and UDP, followed by scenario-based follow-ups.
+○ Data Structures: Deep discussion on Maps, specifically how collision handling is implemented under the hood.
+○ DSA: One coding question based on Dynamic Programming and Strings (LeetCode Medium level).
+
+● Round 2: Advanced C++ & Concurrency (Hard)
+○ Duration: ~60 minutes.
+○ Core C++: This was a very tough, highly rigorous round focused entirely on the technical foundations of C++. The interviewer went incredibly deep into memory management, pointers, and string optimization techniques.
+○ Concurrency: I was asked to write the code for the Producer-Consumer problem without using locks (testing lock-free programming and atomics).
+○ Language Internals: Extended follow-up questions covering templates, vector internals, references, thread management, and processes.
+
+● Round 3: Applied Networking Scenarios (Medium-Hard)
+○ Duration: ~30 minutes.
+○ Scenario Round: The interviewer presented two real-life system scenarios and asked me to demonstrate exactly why TCP would be the better choice over UDP. Constraints were actively added to the problem to test my adaptability, followed by in-depth questions on the TCP connection lifecycle and the OSI model.
+
+Preparation Tips (Do's & Don'ts)
+● Do's:
+○ Build an exceptionally deep understanding of C++. You must be comfortable writing raw C++ code and explaining memory allocation, pointers, and optimization.
+○ Study the internal workings of OOPs. Don't just learn the definitions; know exactly how things like polymorphism are executed in memory.
+○ Practice writing code on paper or a whiteboard.
+● Don'ts:
+○ Don't overlook core subjects (OS, Networking, Linux). The interviews heavily test applied networking and OS concepts alongside DSA.

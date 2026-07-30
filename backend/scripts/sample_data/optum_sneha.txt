@@ -1,0 +1,68 @@
+Optum Interview Experience
+Role – Software Engineering Associate (Technology Development Program)
+Name – Sneha Kumar
+Branch – Electronics and Communication Engineering
+
+There were 3 rounds in total.
+Round 1 : Online Assessment 
+Round 2 : HR interview
+Round 3 : Technical interview
+
+Round 1 : Online Assessment Round (Online mode – from CDC)
+OA was an AI-assisted Full-Stack Coding round and was of 60 minutes, conducted on CodeSignal platform.
+In the question a fully functioning web application was given. It was a blogging website comprising of various articles and blogs.
+We were asked to make changes in the code to implement certain new features in it – like one of the features to incorporate was a viewcount feature that can dynamically update itself as new viewers visit the website to read the articles/blogs.
+Throughout the assessment, we were allowed to make use of CodeSignal’s AI assistant, Cosmo.
+The assessment was divided into 4 tiers, and each tier carried 200 points. At the end, a cumulative score out of 600 was generated based on all tiers.
+A total of 41 candidates got selected for the next round.
+
+Round 2 : HR Round (Online mode – from CDC)
+The interview lasted for about 25 minutes. The interviewer was quite friendly and started by asking me about how my day was. She then gave me a brief introduction about herself. After that she asked for my introduction.
+Then, she asked the following questions :
+• Why do you want to join Optum?
+• Do you have experience working under a time crunch?
+• How do you manage to do multiple things at the same time?
+• Some general questions related to my resume focusing on the achievements I mentioned.
+
+In the end, she asked if I had any questions to ask her (she specifically mentioned not to ask general questions related to Optum’s work culture or anything similar). I asked about Optum’s logo and why it was re-designed in 2021. I also asked few questions regarding Optum’s Technology Development Program.
+In the end, 34 people got selected for technical round.
+
+Round 3 : Technical Round (Online mode – from CDC)
+The interview was about 70 minutes.
+The interviewer began by his introduction and then asked me to introduce myself.
+
+Then he asked about my proficiency in C++ and Python and which one I preferred more. After that, he moved straight into Machine Learning. He started by getting an idea about my familiarity with ML, and asked me to rate myself in it on a scale of 1 to 5. 
+Next, he asked me to explain what I had done in my ML projects that I listed in my resume. He asked basic questions related to them like :
+• What does your project do?
+• What dataset did you use? Was the data static or dynamic?
+• Why did you choose that specific model?
+• If you had a column in your dataset containing decimal values, how would you change its datatype to string in Pandas?
+• In one of my projects, I used a Random Forest classifier, so he asked why I chose it and how it was making correct predictions. 
+He then asked me about the hyperparameters used in this model.
+
+Then he got into AI and asked me to rate my proficiency in it on a scale of 1 to 5.
+Since I had mentioned in my resume that I knew basic Generative AI, he started by asking questions related to it:
+• Basic definition about LLMs.
+• What do you know about Prompt engineering? Different techniques involved in crafting task-specific prompts.
+• If the LLM that you chose isn’t giving the required results, what steps will you take to tackle this problem?
+• How would you connect your model to real-time dynamic data?
+For this, I mentioned connecting the model to APIs/databases and also using Retrieval-Augmented Generation (RAG). He then asked few follow-up questions related to RAG and how I would implement it.
+• How would you create a pipeline to get patient data in hospitals?
+• What steps would you take to build a software that can predict the glucose levels for a patient for the next three months using their past data?
+For this, he expected me to also provide a detailed rundown of each step I would take.
+
+In between he was also asking some scenario-based managerial questions, like:
+• Do you have experience working in a team, and how was the work allocated among team members?
+• If you had a conflict with your peer, how would you solve it?
+• If you trained a model and the results that you get are different from the results of your colleague, then would you trust yourself or your peer? What steps would you take to ensure that the end result is correct?
+• When you work in a team, how often do you take on the role of a leader?
+
+Lastly, he asked if I had any questions for him, I asked about the various domains that the Technology Development Program would cover.
+
+Although I wasn’t asked any DSA questions in my technical round, some of my friends were asked basic ones, so it’d be better if you’re familiar with DSA fundamentals.
+I would also strongly recommend being well-prepared in ML and AI, as these were common themes in everyone’s interview.
+
+In the end, 12 people got selected.
+
+My tip for placements would be to stay calm and composed throughout the process. Be thoroughly familiar with your resume, as interviewers will dive deep into it. Trust your preparation, your hard work will definitely pay off. 
+All the best!

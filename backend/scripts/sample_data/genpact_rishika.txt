@@ -1,0 +1,26 @@
+GENPACT INTERVIEW EXPERIENCE
+Role: Management trainee/Business Analyst
+CPI>=6
+
+Hello everyone, I’m Gilakathula Rishika, and I’m here to share my interview experience with Genpact. There was a total of 3 rounds which comprised of:-
+1. Online assessment
+2. Technical Round
+3. HR Round
+Note: Interviews were conducted on zoom meet
+
+Round 1: Online Assessment (60 mins)
+This was a 60-question MCQ test on the Mercer Mettl platform. There were no DSA or coding problems at all. Most of the questions were about Machine Learning. Out of everyone who gave the test, 16 people (5 girls and 11 boys) were shortlisted for the next round.
+
+Round 2: Technical Round (25-30 mins)
+The round started with a quick introduction. Right after that, the interviewer gave me a puzzle: There are 3 rooms with 3 bulbs, and you are outside with 3 switches. You can only open the door at most once to check. I already knew the trick to this, so I replied right away. The interviewer was actually really impressed!
+Then, he moved on to some Machine Learning questions (one I clearly remember was the difference between Logistic and Linear Regression). After that, he asked a few questions about the ML project I had mentioned on my resume.
+Since my profile mostly highlights Software Development (SDE, full-stack, and DSA), he asked why I was applying for an ML/Analyst role. I just answered honestly-I told him that while my main interest is in SDE, AI is booming right now, and I am very adaptable and eager to learn new technologies.
+From this round, 6 of us (2 girls and 4 boys) got shortlisted.
+
+Round 3: HR Round (5-10 mins)
+This was a very short and casual round. They just asked for my basic details, checked my Aadhar card on the camera for ID proof, and asked if I was okay with the job locations and shift timings. I asked a couple of questions about the company at the end, and we were done.
+
+A Small Suggestion from My Side:
+Go ahead, prepare well, and gain as much interview experience as you can. But please don't get upset if the results aren't always positive. So just keep trying! Sometimes, even when your interview goes really well and you give it your best, you might still get rejected. It happens to everyone, and it's completely normal. Just don't lose hope, learn from every experience, and keep pushing forward! In the end, everything will be fine!!
+
+Wishing you all the very best!!

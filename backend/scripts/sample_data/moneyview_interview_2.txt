@@ -1,0 +1,47 @@
+MoneyView Campus Placement Experience
+
+Overview and Eligibility Criteria
+MoneyView conducted a parallel pool recruitment drive across four NITs (Jamshedpur, Rourkela, Trichy, and Raipur).
+● Cutoff: Minimum CPI of 8.0.
+● Eligible Branches: Open to all branches for the OA; final interview shortlists were restricted to CS, IT, and ECE students.
+
+Round 1: Online Assessment (OA)
+The OA evaluated core knowledge, quantitative speed, and algorithmic problem-solving under tight time limits.
+● Aptitude & Core MCQs: Standard time-bound aptitude questions alongside foundational OS/DBMS MCQs.
+● Coding Section:
+1. A story-based Fibonacci variant (LeetCode Easy) where F(0) = 0.
+2. A graph-based DFS question. I solved it via DSU (Disjoint Set Union).
+● My Performance: I successfully solved both coding questions and completed nearly 60% of the MCQs accurately.
+Shortlist Outcome: Solving at least one coding question with a solid MCQ/Aptitude score was the baseline to progress. From our college alone, 30 students moved on to the next round.
+
+The Interview Phase
+
+Technical Interview 1 (1 Hour)
+● Data Structures and Algorithms (DSA):
+○ Linked List Cycle Detection: A modified variant where node data values could repeat. Cycle detection had to be calculated explicitly by validation of node addresses/references rather than node values.
+○ 3Sum Problem: A standard multi-pointer array problem to find unique triplets matching a target sum.
+● Language Specifics (Java): As Java was my primary coding language, I was asked to write a functional implementation of parallel running threads.
+● OOPs: Detailed conceptual exploration of standard Object-Oriented Programming paradigms.
+
+Technical Interview 2: System Design and Architecture (1 Hour)
+A completely theoretical round with no coding involved.
+● HashMap Internals: I was asked to describe the internal working of a HashMap and what and how collision happens.
+● Project Scaling: The interviewer isolated a project from my resume and analyzed architectural behavior under stress tests, such as managing a sudden influx of one million active users and some other concepts.
+
+HR Interview (45 Minutes)
+● Guesstimate: Estimating the annual consumption of toothpaste tubes within our college hostel.
+● Behavioral: Deciding between Virat Kohli or Hrithik Roshan as a role model, supported by core logical reasoning.
+● Situational: Discussing previous campus placement interviews and evaluating reasons for not being selected.
+● The Result: The HR manager verbally confirmed my final selection at the end of the conversation.
+
+Recommended Resources
+● Data Structures and Algorithms (DSA): Striver’s A-Z DSA Sheet covers all critical interview patterns. Nothing comes apart from these in Interviews (exception DE Shaw)
+● Online Assessments (OA): TLE Eliminators CP Sheets up to a 1400 is more than enough.
+● Aptitude: CareerRide Aptitude Playlist for shortcut methodologies.
+● Operating Systems (OS): Love Babbar OS Placement Course for rapid fundamental review.
+● Database Management Systems (DBMS): Love Babbar DBMS Interview Prep Video — prioritize the database scaling and architecture concepts at the end for system design rounds (mandatory).
+● SQL: Focus on complex joins, nested subqueries, and window functions through randomized practice problems instead of memorizing static sheets.
+● Computer Networks (CN): Core review of standard protocols, the OSI model, and basic TCP/IP mechanics.
+
+Final Outcome
+At the conclusion of the recruitment drive, 8 people were selected from our college to join MoneyView.
