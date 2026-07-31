@@ -29,7 +29,7 @@ export default function MyDocuments() {
     if (role) formData.append('role', role);
 
     try {
-      const res = await fetch('http://localhost:8000/api/v1/documents/upload', {
+      const res = await fetch('https://ai-powered-campus-placement-guid.onrender.com/api/v1/documents/upload', {
         method: 'POST',
         body: formData,
       });

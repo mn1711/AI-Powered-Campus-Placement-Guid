@@ -80,7 +80,7 @@ export default function MockInterview() {
     try {
       // We prepend a special directive to force the AI into interviewer mode
       const query = `[MOCK INTERVIEW MODE] ${userMessage.content}`;
-      const res = await fetch('http://localhost:8000/api/v1/ai/chat', {
+      const res = await fetch('https://ai-powered-campus-placement-guid.onrender.com/api/v1/ai/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: query })
