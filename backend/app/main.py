@@ -22,7 +22,11 @@ from app.api.api import api_router
 
 @app.on_event("startup")
 async def startup_event():
-    await init_db()
+    try:
+        await init_db()
+        print("Successfully connected to Postgres database.")
+    except Exception as e:
+        print(f"Warning: Could not connect to Postgres DB. Running without SQL database. Error: {e}")
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
