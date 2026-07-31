@@ -42,7 +42,10 @@ class NvidiaNIMEmbeddings(Embeddings):
         return self._embed([text], "query")[0]
 
 # In a real app we'd likely instantiate QdrantClient centrally
-client = QdrantClient(host=settings.QDRANT_HOST, port=settings.QDRANT_PORT)
+if settings.QDRANT_HOST.startswith("http"):
+    client = QdrantClient(url=settings.QDRANT_HOST, api_key=settings.QDRANT_API_KEY)
+else:
+    client = QdrantClient(host=settings.QDRANT_HOST, port=settings.QDRANT_PORT)
 
 # Use real NVIDIA embeddings via custom class to avoid Langchain API parsing bugs
 embeddings = NvidiaNIMEmbeddings()

@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     # Qdrant
     QDRANT_HOST: str = "localhost"
     QDRANT_PORT: int = 6333
+    QDRANT_API_KEY: str | None = None
     
     # AI Providers
     OPENAI_API_KEY: str | None = None
