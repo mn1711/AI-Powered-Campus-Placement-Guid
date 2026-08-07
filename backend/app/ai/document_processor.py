@@ -49,7 +49,12 @@ class DocumentProcessor:
             # We inject a unique chunk ID and preserve the original metadata
             chunk_metadata = metadata.copy()
             chunk_metadata["chunk_id"] = str(uuid.uuid4())
-            documents.append(Document(page_content=chunk, metadata=chunk_metadata))
+            
+            # Context Enrichment: Inject metadata directly into the chunk string!
+            source = metadata.get('source', filename)
+            enriched_content = f"[Context from Document: {source}]\n{chunk}"
+            
+            documents.append(Document(page_content=enriched_content, metadata=chunk_metadata))
             
         return documents
 

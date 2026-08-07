@@ -51,7 +51,7 @@ else:
 embeddings = NvidiaNIMEmbeddings()
 
 # Size for nvidia/nv-embedqa-e5-v5 is 1024
-COLLECTION_NAME = "interview_experiences_nvidia_v2"
+COLLECTION_NAME = "interview_experiences_nvidia_v3"
 
 class VectorStoreManager:
     def __init__(self):
